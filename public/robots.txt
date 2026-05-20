@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ahtraveltourism.com
+
+# Sitemaps
+Sitemap: https://ahtraveltourism.com/sitemap.xml

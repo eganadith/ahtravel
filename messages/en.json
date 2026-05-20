@@ -1,0 +1,303 @@
+{
+  "metadata": {
+    "home": {
+      "title": "A&H Travel and Tourism LLC | Travel Agency Dubai",
+      "description": "Premium travel, visa, umrah packages, desert safari and admin services in Dubai. Employment visa, tourist visa, document typing International City.",
+      "keywords": "travel agency Dubai, employment visa Dubai, umrah packages UAE, tourist visa Dubai, desert safari Dubai, document typing International City Dubai"
+    },
+    "tourism": {
+      "title": "Tourism Services | A&H Travel Dubai",
+      "description": "Air ticketing, hotel booking, umrah packages, desert safari, holiday tours and travel insurance in Dubai."
+    },
+    "admin": {
+      "title": "Admin & Visa Services | A&H Travel Dubai",
+      "description": "Employment visa, family visa, tourist visa, Emirates ID, Tas-Heel, Amer, PRO services and business setup in Dubai."
+    },
+    "about": {
+      "title": "About Us | A&H Travel and Tourism LLC",
+      "description": "Learn about A&H Travel — your trusted Dubai travel and visa partner since 2020."
+    },
+    "contact": {
+      "title": "Contact Us | A&H Travel Dubai",
+      "description": "Get in touch with A&H Travel in International City, Dubai. Call, WhatsApp or send an enquiry."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "tourism": "Tourism",
+    "admin": "Admin Services",
+    "about": "About",
+    "contact": "Contact",
+    "whatsapp": "WhatsApp"
+  },
+  "footer": {
+    "tagline": "Refined Travel. Exceptional Experiences.",
+    "arabicName": "ايه اند اتش للسياحة ش.ذ.م.م",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact",
+    "copyright": "© {year} A&H Travel and Tourism LLC. All rights reserved.",
+    "tourismLink": "Tourism Services",
+    "adminLink": "Admin & Visa",
+    "aboutLink": "About Us",
+    "contactLink": "Contact"
+  },
+  "common": {
+    "enquireNow": "Enquire Now",
+    "exploreServices": "Explore Services",
+    "whatsappUs": "WhatsApp Us",
+    "getInTouch": "Get in Touch Today",
+    "learnMore": "Learn More",
+    "readMore": "Read More",
+    "submit": "Send Enquiry",
+    "sending": "Sending...",
+    "success": "Thank you! We will contact you shortly.",
+    "error": "Something went wrong. Please try again or WhatsApp us.",
+    "phone": "+971 52 961 5154",
+    "email": "contact@ahtraveltourism.com",
+    "address": "England Cluster, International City, Dubai, UAE"
+  },
+  "home": {
+    "hero": {
+      "headline": "Your Journey Begins Here",
+      "subheadline": "Travel. Visas. Documents. All under one roof in Dubai.",
+      "exploreServices": "Explore Services",
+      "whatsappUs": "WhatsApp Us"
+    },
+    "servicesOverview": {
+      "title": "What We Do",
+      "tourism": {
+        "title": "Tourism Services",
+        "points": ["Air ticketing & hotels", "Umrah & holiday packages", "Desert safari & tours"],
+        "cta": "Explore Tourism"
+      },
+      "admin": {
+        "title": "Admin & Visa Services",
+        "points": ["Employment & family visas", "Emirates ID & Tas-Heel", "Document typing & PRO"],
+        "cta": "Explore Admin"
+      }
+    },
+    "trustBar": {
+      "clients": "Clients Served",
+      "countries": "Countries",
+      "rating": "Star Rated",
+      "established": "Est."
+    },
+    "featured": {
+      "title": "Featured Services",
+      "subtitle": "Everything you need for travel and life in the UAE",
+      "airTicketing": { "name": "Air Ticketing", "desc": "Domestic & international flights on all major airlines." },
+      "employmentVisa": { "name": "Employment Visa", "desc": "2-year work visas for all nationalities." },
+      "umrah": { "name": "Umrah Packages", "desc": "By air and by bus — spiritual journeys made simple." },
+      "desertSafari": { "name": "Desert Safari", "desc": "Dune bashing, camel rides & BBQ under the stars." },
+      "hotelBooking": { "name": "Hotel Booking", "desc": "From budget stays to 5-star luxury worldwide." },
+      "documentTyping": { "name": "Document Typing", "desc": "Fast, accurate typing for all UAE documents." }
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "items": [
+        { "name": "Ahmed Hassan", "country": "Egypt", "quote": "A&H Travel made my employment visa process seamless. Professional, fast, and always available on WhatsApp." },
+        { "name": "Fatima Rahman", "country": "Bangladesh", "quote": "Our Umrah package was perfectly organized. From flights to hotels, everything exceeded our expectations." },
+        { "name": "Maria Santos", "country": "Philippines", "quote": "Best travel agency in International City. They handled my family's visas and our Thailand holiday brilliantly." }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Travel or Relocate to the UAE?",
+      "button": "Get in Touch Today"
+    }
+  },
+  "tourism": {
+    "hero": {
+      "title": "Explore the World. Start from Dubai.",
+      "subtitle": "Flights, hotels, visas, tours and unforgettable experiences — tailored for you."
+    },
+    "servicesTitle": "Our Tourism Services",
+    "services": {
+      "airTicketing": {
+        "title": "Air Ticketing (Domestic & International)",
+        "description": "Book flights on all major airlines at competitive rates. We compare fares across carriers to find the best routes and prices for your journey.",
+        "price": "Fares from AED 199"
+      },
+      "visitWorkVisa": {
+        "title": "Visit Visa & Work Visa Assistance",
+        "description": "Expert guidance for UAE visit visas and work permit applications. We handle documentation and follow-ups so you can focus on your plans.",
+        "price": "Assistance from AED 350"
+      },
+      "hotelBooking": {
+        "title": "Hotel Booking (Budget to Luxury)",
+        "description": "From affordable stays to five-star resorts worldwide. We secure the best rates and room types to match your budget and preferences.",
+        "price": "Rooms from AED 150/night"
+      },
+      "holidayPackages": {
+        "title": "Holiday & Tour Packages",
+        "description": "Curated packages to Thailand, Malaysia, Azerbaijan, Vietnam, Singapore, and Myanmar. Flights, hotels, and tours bundled for hassle-free travel.",
+        "price": "Packages from AED 2,499"
+      },
+      "cruiseTours": {
+        "title": "Cruise Tours",
+        "description": "Luxury cruise experiences departing from Dubai and beyond. Enjoy premium cabins, dining, and shore excursions on the open sea.",
+        "price": "Packages from AED 1,899"
+      },
+      "umrahPackages": {
+        "title": "Umrah Packages (By Air & By Bus)",
+        "description": "Complete Umrah packages including visa, flights, accommodation in Makkah and Madinah, and ground transport. Group and private options available.",
+        "price": "Packages from AED 2,999"
+      },
+      "desertSafari": {
+        "title": "Desert Safari Dubai",
+        "description": "Thrilling dune bashing in 4x4 vehicles, camel riding, sandboarding, henna, and a traditional BBQ dinner under the desert stars.",
+        "price": "From AED 99 per person"
+      },
+      "horseRiding": {
+        "title": "Horse Riding Packages",
+        "description": "Scenic horse riding experiences in Dubai's desert and equestrian centres. Suitable for beginners and experienced riders alike.",
+        "price": "From AED 250"
+      },
+      "travelInsurance": {
+        "title": "Travel Insurance",
+        "description": "Comprehensive travel insurance covering medical emergencies, trip cancellation, and baggage loss for peace of mind abroad.",
+        "price": "From AED 45"
+      },
+      "airportPickup": {
+        "title": "Airport Pickup & Drop",
+        "description": "Reliable private transfers to and from Dubai International Airport and other UAE airports. Meet-and-greet service available.",
+        "price": "From AED 120"
+      }
+    }
+  },
+  "admin": {
+    "hero": {
+      "title": "Paperwork Sorted. Focus on What Matters.",
+      "subtitle": "Visas, Emirates ID, government services and document clearance — handled by experts."
+    },
+    "servicesTitle": "Admin & Visa Services",
+    "services": {
+      "employmentVisa": {
+        "title": "2-Year Employment Visa (All Nationalities)",
+        "description": "Full employment visa processing for all nationalities including medical, Emirates ID, and labour card. We manage every step with government authorities.",
+        "price": "From AED 3,500"
+      },
+      "familyVisa": {
+        "title": "Family Visa (2 Years)",
+        "description": "Sponsor your spouse, children, and parents with our family visa services. We prepare all required documents and coordinate medical tests.",
+        "price": "From AED 2,800"
+      },
+      "touristVisa": {
+        "title": "Tourist Visa (30 & 60 Days)",
+        "description": "Single and multiple-entry UAE tourist visas for 30 and 60 days. Fast processing for visitors from eligible countries.",
+        "price": "From AED 350"
+      },
+      "schengenVisa": {
+        "title": "Schengen & Europe Tourist Visa",
+        "description": "Application support for Schengen and European tourist visas including appointment booking, document review, and travel insurance.",
+        "price": "Assistance from AED 500"
+      },
+      "tasheel": {
+        "title": "Tas-Heel Services",
+        "description": "Complete Tas-Heel centre services for labour, immigration, and typing requirements. Skip the queues with our experienced team.",
+        "price": "Service fees from AED 50"
+      },
+      "amer": {
+        "title": "Amer Services",
+        "description": "Amer centre transactions for residency, visa stamping, and related government services handled efficiently on your behalf.",
+        "price": "Service fees from AED 75"
+      },
+      "emiratesId": {
+        "title": "Emirates ID & Medical Services",
+        "description": "Emirates ID application, renewal, and medical fitness test coordination. We ensure your documents are complete before submission.",
+        "price": "From AED 370"
+      },
+      "ded": {
+        "title": "DED & Economic Services",
+        "description": "Department of Economic Development services including trade licence renewals, amendments, and commercial registrations.",
+        "price": "Fees vary by service"
+      },
+      "documentTyping": {
+        "title": "All Document Typing",
+        "description": "Professional typing for visas, contracts, affidavits, NOCs, and all government forms in Arabic and English.",
+        "price": "From AED 25 per page"
+      },
+      "translation": {
+        "title": "Legal & Normal Translation",
+        "description": "Certified legal translation and standard document translation accepted by UAE government authorities and embassies.",
+        "price": "From AED 40 per page"
+      },
+      "proServices": {
+        "title": "PRO Services (Document Clearance)",
+        "description": "Public Relations Officer services for document submission, collection, and clearance across government departments in Dubai.",
+        "price": "From AED 150 per transaction"
+      },
+      "businessSetup": {
+        "title": "Business Setup",
+        "description": "End-to-end company formation in mainland and free zones including trade licence, visa quota, and corporate bank account guidance.",
+        "price": "Packages from AED 8,999"
+      },
+      "ejari": {
+        "title": "Ejari Services",
+        "description": "Tenancy contract registration and Ejari renewal through Dubai Land Department channels for tenants and landlords.",
+        "price": "From AED 220"
+      },
+      "drivingLicense": {
+        "title": "Driving License Renewal",
+        "description": "UAE driving licence renewal assistance including eye tests, fine clearance checks, and RTA appointment coordination.",
+        "price": "From AED 350"
+      },
+      "medicalInsurance": {
+        "title": "Medical/Stamping Insurance",
+        "description": "Health insurance plans meeting UAE visa stamping requirements. We compare providers to find compliant, affordable coverage.",
+        "price": "From AED 600/year"
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About A&H Travel",
+      "subtitle": "Your trusted partner for travel and government services in the UAE since 2020."
+    },
+    "story": {
+      "title": "Our Story",
+      "p1": "Founded in Dubai's International City, A&H Travel and Tourism LLC was built on a simple promise: make travel and paperwork effortless for everyone who calls the UAE home or dreams of visiting.",
+      "p2": "From a small office serving the local community, we have grown into a full-service agency trusted by hundreds of clients across more than ten countries — handling everything from desert safaris to employment visas with the same care and attention."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "text": "To deliver refined travel experiences and exceptional admin support with transparency, speed, and genuine hospitality — every client, every time."
+    },
+    "pillars": {
+      "title": "Why Choose Us",
+      "trusted": { "title": "Trusted", "desc": "Hundreds of satisfied clients and 5-star reviews across our community." },
+      "fast": { "title": "Fast", "desc": "Efficient processing with real-time updates via WhatsApp." },
+      "affordable": { "title": "Affordable", "desc": "Competitive pricing with no hidden fees — ever." },
+      "professional": { "title": "Professional", "desc": "Experienced team fluent in multiple languages and regulations." }
+    },
+    "partners": {
+      "title": "Trusted Partners"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Get in Touch",
+      "subtitle": "We are here to help with travel, visas, and documents. Reach out today."
+    },
+    "form": {
+      "name": "Full Name",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "service": "Service Needed",
+      "message": "Your Message",
+      "selectService": "Select a service",
+      "services": {
+        "tourism": "Tourism / Travel",
+        "visa": "Visa Services",
+        "umrah": "Umrah Package",
+        "safari": "Desert Safari",
+        "admin": "Admin / Documents",
+        "other": "Other"
+      }
+    },
+    "info": {
+      "title": "Visit Us",
+      "addressAr": "إنجلترا كلاستر، المدينة العالمية، دبي، الإمارات العربية المتحدة"
+    }
+  }
+}
