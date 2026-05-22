@@ -37,10 +37,11 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-12 px-4 py-16 md:grid-cols-2 lg:grid-cols-4 md:px-8">
         <div>
           <div className="mb-4 flex items-center gap-3">
-            <Logo height={52} />
+            <Logo height={52} background="dark" />
             <div>
               <p className="font-lato text-lg font-semibold">A&H Travel</p>
               <p className="text-sm text-warm-white/70">{t("tagline")}</p>
+              <p className="text-xs text-warm-white/50">{t("taglineSecondary")}</p>
             </div>
           </div>
           <p className="mt-2 text-sm text-gold/90" dir="rtl">
@@ -137,8 +138,19 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-white/10 py-6 text-center text-sm text-warm-white/60">
-        {t("copyright", { year })}
+      <div className="space-y-2 border-t border-white/10 py-6 text-center text-sm text-warm-white/60">
+        <p>{t("copyright", { year })}</p>
+        <p>
+          {t("credits")}{" "}
+          <a
+            href="https://seedrix.co"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-warm-white/80 transition hover:text-gold"
+          >
+            seedrix.co
+          </a>
+        </p>
       </div>
     </footer>
   );

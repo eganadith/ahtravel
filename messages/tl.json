@@ -1,177 +1,727 @@
 {
   "metadata": {
     "home": {
-      "title": "A&H Travel and Tourism LLC | Travel Agency Dubai",
-      "description": "Premium na travel, visa, umrah packages, desert safari at admin services sa Dubai.",
-      "keywords": "travel agency Dubai, employment visa Dubai, umrah packages UAE"
+      "title": "A&H Travel and Tourism LLC | Pinagkakatiwalaang Kasosyo sa Paglalakbay at Visa sa Dubai",
+      "description": "Air ticket, UAE visa, Umrah package, desert safari, employment visa, Emirates ID, document typing at business setup, lahat mula sa International City, Dubai.",
+      "keywords": "travel agency Dubai, employment visa Dubai, umrah packages UAE, tourist visa Dubai, desert safari Dubai, document typing International City Dubai"
     },
-    "tourism": { "title": "Tourism Services | A&H Travel Dubai", "description": "Air ticketing, hotel booking, umrah, safari at tour packages sa Dubai." },
-    "admin": { "title": "Admin at Visa Services | A&H Travel Dubai", "description": "Employment visa, family visa, Emirates ID, Tas-Heel at Amer sa Dubai." },
-    "about": { "title": "Tungkol sa Amin | A&H Travel", "description": "Ang iyong pinagkakatiwalaang travel partner sa UAE mula 2020." },
-    "contact": { "title": "Makipag-ugnayan | A&H Travel Dubai", "description": "Makipag-ugnayan sa amin sa International City, Dubai." }
+    "tourism": {
+      "title": "Serbisyo sa Turismo | A&H Travel Dubai",
+      "description": "Air ticketing, hotel booking, Umrah, desert safari, holiday package sa Asia at Europe, cruise, at travel insurance mula sa Dubai."
+    },
+    "admin": {
+      "title": "Serbisyo sa Admin at Visa | A&H Travel Dubai",
+      "description": "Employment visa, family visa, tourist visa, Schengen visa, Tas-Heel, Amer, Emirates ID, DED, business setup, PRO at document typing sa Dubai."
+    },
+    "about": {
+      "title": "Tungkol sa A&H Travel and Tourism LLC | Dubai",
+      "description": "Misyon, bisyon at kwento ng A&H Travel, ang pinagkakatiwalaan mong kasosyo sa paglalakbay at admin sa International City, Dubai."
+    },
+    "contact": {
+      "title": "Makipag-ugnayan sa A&H Travel | International City, Dubai",
+      "description": "Bisitahin, tawagan o i-WhatsApp ang A&H Travel sa International City. Bukas 7 araw sa isang linggo para sa paglalakbay at visa."
+    }
   },
   "nav": {
     "home": "Home",
-    "tourism": "Turismo",
-    "admin": "Admin Services",
-    "about": "Tungkol",
-    "contact": "Contact",
-    "whatsapp": "WhatsApp"
+    "tourism": "Serbisyo sa Turismo",
+    "admin": "Serbisyo sa Admin",
+    "about": "Tungkol sa Amin",
+    "contact": "Makipag-ugnayan",
+    "whatsapp": "I-WhatsApp Kami"
+  },
+  "servicesCarousel": {
+    "subtitle": "I-tap ang anumang serbisyo para makita ang buong detalye, presyo, at paraan ng pag-book.",
+    "tourismEyebrow": "Serbisyo sa Turismo",
+    "adminEyebrow": "Serbisyo sa Admin",
+    "learnMore": "Alamin pa",
+    "scrollPrev": "Nakaraang mga serbisyo",
+    "scrollNext": "Susunod na mga serbisyo",
+    "backToTourism": "Lahat ng Serbisyo sa Turismo",
+    "backToAdmin": "Lahat ng Serbisyo sa Admin"
+  },
+  "navMenu": {
+    "exploreTourism": "Tuklasin ang Turismo",
+    "allTourism": "Lahat ng Serbisyo sa Turismo",
+    "destinations": "Mga Sikat na Holiday Destination",
+    "exploreAllTourism": "Tuklasin ang Lahat ng Serbisyo sa Turismo",
+    "exploreAdmin": "Tuklasin ang Admin",
+    "allAdmin": "Lahat ng Serbisyo sa Admin",
+    "exploreAllAdmin": "Tuklasin ang Lahat ng Serbisyo sa Admin",
+    "whatsapp": "Magtanong sa WhatsApp",
+    "contact": "Makipag-ugnayan"
   },
   "footer": {
-    "tagline": "Refined Travel. Exceptional Experiences.",
+    "tagline": "Pinino ang Paglalakbay. Pambihirang Karanasan.",
+    "taglineSecondary": "Pinaka Pinagkakatiwalaang Kasosyo sa Paglalakbay at Admin sa Dubai",
     "arabicName": "ايه اند اتش للسياحة ش.ذ.م.م",
-    "quickLinks": "Mabilis na Links",
+    "quickLinks": "Mabilis na Link",
     "services": "Mga Serbisyo",
-    "contact": "Contact",
+    "contact": "Makipag-ugnayan",
     "copyright": "© {year} A&H Travel and Tourism LLC. Lahat ng karapatan ay nakalaan.",
-    "tourismLink": "Tourism Services",
+    "credits": "Idinisenyo at binuo ng",
+    "tourismLink": "Serbisyo sa Turismo",
     "adminLink": "Admin at Visa",
     "aboutLink": "Tungkol sa Amin",
-    "contactLink": "Contact"
+    "contactLink": "Makipag-ugnayan"
   },
   "common": {
+    "tagline": "Pinino ang Paglalakbay. Pambihirang Karanasan.",
+    "taglineSecondary": "Pinaka Pinagkakatiwalaang Kasosyo sa Paglalakbay at Admin sa Dubai",
     "enquireNow": "Magtanong Ngayon",
-    "exploreServices": "Tuklasin ang Serbisyo",
-    "whatsappUs": "WhatsApp Kami",
+    "exploreServices": "Tuklasin ang Aming Mga Serbisyo",
+    "whatsappUs": "I-WhatsApp Kami Ngayon",
+    "whatsappChat": "Makipag-chat sa Amin sa WhatsApp",
+    "getStartedToday": "Magsimula Ngayon",
     "getInTouch": "Makipag-ugnayan Ngayon",
     "learnMore": "Alamin Pa",
     "readMore": "Basahin Pa",
-    "submit": "Ipadala ang Inquiry",
+    "whatsIncluded": "Kasama sa package:",
+    "submit": "Ipadala ang Aking Tanong",
     "sending": "Ipinapadala...",
-    "success": "Salamat! Makikipag-ugnayan kami sa iyo kaagad.",
-    "error": "May nangyaring mali. Subukan muli o mag-WhatsApp sa amin.",
+    "success": "Salamat! Makikipag-ugnayan kami sa iyo sa lalong madaling panahon.",
+    "error": "May nangyaring mali. Pakisubukang muli o i-WhatsApp kami.",
     "phone": "+971 52 961 5154",
     "email": "contact@ahtraveltourism.com",
-    "address": "England Cluster, International City, Dubai, UAE"
+    "address": "England Cluster, International City, Dubai, UAE",
+    "openWhatsApp": "Buksan ang WhatsApp Ngayon",
+    "preferChat": "Mas gusto mong direktang makipag-chat?",
+    "replyTime": "Karaniwang sumasagot kami sa loob ng 30 minuto sa oras ng negosyo."
   },
   "home": {
     "hero": {
-      "headline": "Magsisimula ang Iyong Paglalakbay Dito",
-      "subheadline": "Travel. Visa. Dokumento. Lahat sa isang lugar sa Dubai.",
-      "exploreServices": "Tuklasin ang Serbisyo",
-      "whatsappUs": "WhatsApp Kami"
-    },
-    "servicesOverview": {
-      "title": "Ano ang Ginagawa Namin",
-      "tourism": {
-        "title": "Tourism Services",
-        "points": ["Air ticketing at hotels", "Umrah at holiday packages", "Desert safari at tours"],
-        "cta": "Tuklasin ang Turismo"
-      },
-      "admin": {
-        "title": "Admin at Visa Services",
-        "points": ["Employment at family visas", "Emirates ID at Tas-Heel", "Document typing at PRO"],
-        "cta": "Tuklasin ang Admin"
-      }
+      "headline1": "Pinino ang Paglalakbay.",
+      "headline2": "Pambihirang Karanasan.",
+      "subheadline": "Mula sa air ticket hanggang UAE visa, lahat sa isang lugar sa Dubai. Ang A&H Travel and Tourism ang inyong kumpletong kasosyo sa paglalakbay at paperwork, mula sa aming opisina sa puso ng International City.",
+      "exploreServices": "Tuklasin ang Aming Mga Serbisyo",
+      "whatsappUs": "I-WhatsApp Kami Ngayon"
     },
     "trustBar": {
-      "clients": "Mga Kliyenteng Naserbisyuhan",
-      "countries": "Mga Bansa",
-      "rating": "Star Rated",
-      "established": "Itinatag"
+      "clients": "Masayang Kliyente",
+      "destinations": "Destinasyong Saklaw",
+      "adminServices": "Serbisyo sa Admin",
+      "availability": "Bukas 7 Araw sa Isang Linggo"
+    },
+    "servicesOverview": {
+      "tourism": {
+        "headline": "Pumunta Kahit Saan. Walang Alalahanin.",
+        "body": "Family holiday sa Thailand man, paglalakbay ng Umrah sa Mecca, o desert safari dito mismo sa Dubai, kami ang magpaplano, magbu-book, at gagawing hindi malilimutan.",
+        "cta": "Tingnan Lahat ng Serbisyo sa Turismo"
+      },
+      "admin": {
+        "headline": "UAE Paperwork. Tama at Kumpleto.",
+        "body": "Employment visa, Emirates ID, document typing, serbisyo ng Amer, business setup, pinapadali namin ang komplikasyon para hindi mo na kailangang paghirapan.",
+        "cta": "Tingnan Lahat ng Serbisyo sa Admin"
+      }
+    },
+    "pillars": {
+      "title": "Pinagkakatiwalaan ng Daan-daang Tao sa Buong Dubai",
+      "reliable": {
+        "title": "Maaasahan",
+        "desc": "Laging nandito kami. Walang shortcut, walang pagkaantala. Ang inyong dokumentasyon at plano sa paglalakbay ay hawak nang may buong pananagutan."
+      },
+      "fast": {
+        "title": "Mabilis",
+        "desc": "Alam naming mahalaga ang oras ninyo. Karamihan ng serbisyo ay mas mabilis kaysa karaniwang timeline, dahil hindi dapat bahagi ng plano ang paghihintay."
+      },
+      "affordable": {
+        "title": "Abot-kaya",
+        "desc": "Premium na serbisyo ay hindi nangangahulugang premium na presyo. Tumutugon kami sa bawat budget, mula economy flight hanggang luxury hotel suite."
+      },
+      "professional": {
+        "title": "Propesyonal",
+        "desc": "May lisensya, may karanasan, at bihasa sa sistema ng UAE. Ang aming team ang humaharap sa proseso ng gobyerno para hindi na kayo maghula."
+      }
     },
     "featured": {
-      "title": "Featured na Serbisyo",
-      "subtitle": "Lahat ng kailangan mo para sa travel at buhay sa UAE",
-      "airTicketing": { "name": "Air Ticketing", "desc": "Domestic at international flights sa lahat ng major airlines." },
-      "employmentVisa": { "name": "Employment Visa", "desc": "2-taong work visas para sa lahat ng nasyonalidad." },
-      "umrah": { "name": "Umrah Packages", "desc": "By air at by bus — espirituwal na paglalakbay na simple." },
-      "desertSafari": { "name": "Desert Safari", "desc": "Dune bashing, camel rides at BBQ sa ilalim ng mga bituin." },
-      "hotelBooking": { "name": "Hotel Booking", "desc": "Mula budget hanggang 5-star luxury sa buong mundo." },
-      "documentTyping": { "name": "Document Typing", "desc": "Mabilis at tumpak na typing para sa lahat ng UAE documents." }
+      "title": "Mga Tampok na Serbisyo",
+      "subtitle": "Lahat ng kailangan ninyo para sa paglalakbay at buhay sa UAE",
+      "airTicketing": {
+        "name": "Air Ticket",
+        "desc": "Lumipad kahit saan sa mundo. Hinahanap namin ang bawat airline, bawat ruta, at makukuha ninyo ang pinakamagandang presyo, nang mabilis."
+      },
+      "employmentVisa": {
+        "name": "Employment Visa",
+        "desc": "2-taong UAE employment visa para sa lahat ng nasyonalidad. Kami ang humahawak ng buong proseso mula simula hanggang dulo."
+      },
+      "umrah": {
+        "name": "Umrah Package",
+        "desc": "Sagradong paglalakbay na ginawang simple. May air at bus package na may gabay sa buong biyahe."
+      },
+      "desertSafari": {
+        "name": "Desert Safari",
+        "desc": "Dune bashing, camel ride, at BBQ dinner sa ilalim ng mga bituin. Tunay na karanasan sa Dubai, inayos para sa inyo."
+      },
+      "hotelBooking": {
+        "name": "Hotel Booking",
+        "desc": "Mula budget stay hanggang 5-star luxury, ibinubook namin ang tamang kuwarto sa tamang presyo para sa bawat biyahe."
+      },
+      "documentTyping": {
+        "name": "Document Typing",
+        "desc": "Lahat ng form ng gobyerno, na-type at na-submit nang tama. Walang error, walang rejection."
+      }
+    },
+    "logoStrap": {
+      "title": "Mga Pinagkakatiwalaang Partner",
+      "ariaLabel": "Mga logo ng partner at airline"
     },
     "testimonials": {
-      "title": "Ano ang Sinasabi ng Aming Kliyente",
+      "title": "Ano ang Sabi ng Aming Mga Kliyente",
       "items": [
-        { "name": "Ahmed Hassan", "country": "Egypt", "quote": "Ginawang seamless ng A&H Travel ang aking employment visa. Propesyonal, mabilis, at laging available sa WhatsApp." },
-        { "name": "Fatima Rahman", "country": "Bangladesh", "quote": "Perpektong naka-organize ang aming Umrah package. Mula flights hanggang hotels, lumampas sa expectations." },
-        { "name": "Maria Santos", "country": "Philippines", "quote": "Pinakamahusay na travel agency sa International City. Hinawakan nila ang visa ng pamilya ko at holiday sa Thailand." }
+        {
+          "quote": "Pumunta ako sa A&H matapos maghirap sa employment visa paperwork nang ilang linggo. Naayos nila lahat sa loob ng ilang araw. Propesyonal, tapat, at tunay na matulungin. Lubos na inirerekomenda.",
+          "attribution": "Tariq M., Pakistan"
+        },
+        {
+          "quote": "Nag-book sila ng ticket ko pauwi sa Manila at tumulong sa tourist visa renewal ko. Napaka-abot-kaya, at malinaw nilang ipinaliwanag ang lahat. Wala na akong ibang pinagkakatiwalaan sa Dubai ngayon.",
+          "attribution": "Maria L., Pilipinas"
+        },
+        {
+          "quote": "Alhamdulillah, perpekto ang Umrah trip namin. Hinawakan ng A&H ang flights, accommodation sa Makkah, at lahat ng arrangement. Kailangan na lang naming dumating. Tunay na pagpapala ang serbisyo nila.",
+          "attribution": "Karim H., Bangladesh"
+        },
+        {
+          "quote": "Kailangan ko ng tulong sa trade license at business setup. Alam ng team ng A&H ang bawat hakbang ng proseso ng DED. Nakatipid ako ng ilang linggong kalituhan.",
+          "attribution": "Priya R., India"
+        }
       ]
     },
     "cta": {
-      "title": "Handa na Bang Mag-travel o Lumipat sa UAE?",
-      "button": "Makipag-ugnayan Ngayon"
+      "title": "Handa na Bang Lumipad?",
+      "subtitle": "O kailangan lang ng UAE paperwork? Alinman, isang mensahe lang ang layo namin.",
+      "button": "I-WhatsApp Kami Ngayon"
     }
   },
   "tourism": {
     "hero": {
-      "title": "Tuklasin ang Mundo. Magsimula sa Dubai.",
-      "subtitle": "Flights, hotels, visas, tours at di malilimutang karanasan — para sa iyo."
+      "title": "Mas Malapit ang Mundo Kaysa Iniisip Mo.",
+      "subtitle": "Air ticket, tulong sa visa, hotel booking, tour package, desert safari, cruise, at paglalakbay ng Umrah, lahat mula sa isang lugar sa Dubai."
     },
-    "servicesTitle": "Aming Tourism Services",
+    "servicesTitle": "Aming Mga Serbisyo sa Turismo",
+    "destinationsTitle": "Mga Sikat na Holiday Destination",
     "services": {
-      "airTicketing": { "title": "Air Ticketing (Domestic at International)", "description": "Mag-book ng flights sa lahat ng major airlines sa competitive rates.", "price": "Mula AED 199" },
-      "visitWorkVisa": { "title": "Visit Visa at Work Visa Assistance", "description": "Ekspertong gabay para sa UAE visit visas at work permits.", "price": "Assistance mula AED 350" },
-      "hotelBooking": { "title": "Hotel Booking (Budget hanggang Luxury)", "description": "Mula abot-kaya hanggang 5-star resorts sa buong mundo.", "price": "Rooms mula AED 150/gabi" },
-      "holidayPackages": { "title": "Holiday at Tour Packages", "description": "Packages sa Thailand, Malaysia, Azerbaijan, Vietnam, Singapore, Myanmar.", "price": "Packages mula AED 2,499" },
-      "cruiseTours": { "title": "Cruise Tours", "description": "Luxury cruise experiences mula Dubai at higit pa.", "price": "Packages mula AED 1,899" },
-      "umrahPackages": { "title": "Umrah Packages (By Air at By Bus)", "description": "Kumpletong Umrah packages kasama visa, flights, accommodation.", "price": "Packages mula AED 2,999" },
-      "desertSafari": { "title": "Desert Safari Dubai", "description": "Dune bashing, camel riding, sandboarding at traditional BBQ dinner.", "price": "Mula AED 99 bawat tao" },
-      "horseRiding": { "title": "Horse Riding Packages", "description": "Scenic horse riding sa Dubai desert at equestrian centres.", "price": "Mula AED 250" },
-      "travelInsurance": { "title": "Travel Insurance", "description": "Comprehensive insurance para sa medical, cancellation at baggage.", "price": "Mula AED 45" },
-      "airportPickup": { "title": "Airport Pickup at Drop", "description": "Maaasahang private transfers papunta at mula Dubai airports.", "price": "Mula AED 120" }
+      "airTicketing": {
+        "title": "Air Ticketing, Domestic at International",
+        "shortCopy": "Bawat airline. Bawat destinasyon. Pinakamagandang presyo, mabilis na kumpirmasyon.",
+        "description": "Uuwi man kayo sa pamilya, business trip, o matagal nang inaabangang holiday, hinahanap namin sa lahat ng major airline ang tamang ticket sa tamang presyo. Walang hidden fee, walang kalituhan. Upo ninyo, kumpirmado.",
+        "includes": [
+          "Lahat ng international airline, Emirates, Etihad, flydubai, Air Arabia, Qatar Airways, Turkish Airlines, at iba pa",
+          "Domestic route sa South Asia, Southeast Asia, at Gulf",
+          "Group booking para sa pamilya, team, at corporate travel",
+          "Urgent same-day ticketing available",
+          "Buong e-ticket na ipapadala agad sa WhatsApp"
+        ],
+        "price": "Kompetitibong presyo sa lahat ng ruta",
+        "cta": "I-book ang Ticket Ko",
+        "whatsappMessage": "Kumusta, kailangan ko ng tulong sa pag-book ng air ticket."
+      },
+      "visitWorkVisa": {
+        "title": "UAE Visit Visa at Work Visa",
+        "shortCopy": "Dadalhin ang pamilya sa Dubai? Magha-hire? Kami ang humahawak ng buong proseso ng visa, nang tama at sa tamang oras.",
+        "description": "Mahalagang tama ang UAE visa sa unang subok. Visit visa para sa pamilya, work permit, o sponsorship, alam ng aming team ang eksaktong dokumento at pinakamabilis na paraan ng pagproseso.",
+        "includes": [
+          "30-araw at 60-araw na UAE tourist/visit visa",
+          "Single at multiple entry option",
+          "Work permit application",
+          "Visa status tracking",
+          "Rejection follow-up at resubmission support",
+          "Urgent processing available"
+        ],
+        "price": "Tulong mula AED 350",
+        "cta": "Mag-apply para sa Visa Ko",
+        "whatsappMessage": "Kumusta, kailangan ko ng tulong sa UAE visit o work visa."
+      },
+      "hotelBooking": {
+        "title": "Hotel Booking, Budget hanggang 5-Star Luxury",
+        "shortCopy": "Binabago ng tamang kuwarto ang lahat. Nagbu-book kami ng hotel sa buong mundo, sa bawat budget, para sa bawat biyahe.",
+        "description": "Higit pa sa tulugan ang magandang hotel, doon nagsisimula ang tunay na biyahe. May daan-daang hotel kami sa UAE at globally para sa pinakamagandang halaga na tugma sa estilo, budget, at itinerary ninyo.",
+        "includes": [
+          "UAE hotel (Dubai, Abu Dhabi, Sharjah, Ras Al Khaimah)",
+          "International hotel sa Asia, Europe, Africa, at higit pa",
+          "Group hotel booking para sa pamilya at corporate delegation",
+          "Honeymoon at anniversary package",
+          "Instant confirmation sa WhatsApp"
+        ],
+        "price": "Kuwarto mula AED 150/gabi",
+        "cta": "I-book ang Hotel Ko",
+        "whatsappMessage": "Kumusta, kailangan ko ng tulong sa pag-book ng hotel."
+      },
+      "holidayPackages": {
+        "title": "Holiday Package, Para sa Bawat Manlalakbay",
+        "shortCopy": "Handcrafted holiday sa pinakasikat na destinasyon sa mundo. All-inclusive, walang stress, hindi malilimutan.",
+        "description": "Hindi dapat tumagal ng linggo ang pagpaplano ng holiday. Kumpletong travel package kami, flights, hotel, transfer, at piling tour, para sa pinakasikat na destinasyon mula sa Dubai.",
+        "includes": [
+          "Return flight mula Dubai",
+          "Hotel accommodation",
+          "Airport transfer",
+          "Curated tour at experience",
+          "Customisable add-on"
+        ],
+        "price": "Package mula AED 999 bawat tao",
+        "cta": "Magtanong Tungkol sa Package",
+        "whatsappMessage": "Kumusta, interesado ako sa holiday package.",
+        "destinations": {
+          "thailand": {
+            "title": "Thailand",
+            "copy": "Gulo ng Bangkok, templo ng Chiang Mai, beach ng Phuket, may Thailand para sa bawat uri ng manlalakbay. Ang Thailand package namin ay mula Dubai na may return flight, central hotel, at airport transfer.",
+            "highlights": "Grand Palace Bangkok | Phi Phi Islands | Floating Markets | Muay Thai Experience",
+            "from": "Mula AED 1,499 bawat tao | 5 gabi / 6 araw",
+            "cta": "I-book ang Thailand Package",
+            "whatsappMessage": "Kumusta, interesado ako sa Thailand holiday package."
+          },
+          "malaysia": {
+            "title": "Malaysia",
+            "copy": "Skyline ng Kuala Lumpur, puting buhangin ng Langkawi, street food ng Penang, isa sa pinakasulit na escape sa Southeast Asia ang Malaysia.",
+            "highlights": "Petronas Twin Towers | Batu Caves | Langkawi Island | Penang Heritage Trail",
+            "from": "Mula AED 1,299 bawat tao | 5 gabi / 6 araw",
+            "cta": "I-book ang Malaysia Package",
+            "whatsappMessage": "Kumusta, interesado ako sa Malaysia holiday package."
+          },
+          "singapore": {
+            "title": "Singapore",
+            "copy": "Lungsod na pinagsasama ang futuristic architecture, luntiang hardin, at ilan sa pinakamasarap na pagkain sa Asia. Perpekto para sa pamilya, mag-asawa, at solo traveller.",
+            "highlights": "Marina Bay Sands | Gardens by the Bay | Universal Studios | Hawker Centre Experience",
+            "from": "Mula AED 1,799 bawat tao | 4 gabi / 5 araw",
+            "cta": "I-book ang Singapore Package",
+            "whatsappMessage": "Kumusta, interesado ako sa Singapore holiday package."
+          },
+          "azerbaijan": {
+            "title": "Azerbaijan (Baku)",
+            "copy": "Kung saan nagtatagpo ang sinaunang fire temple at ultramodern architecture, kakaiba ang Baku sa buong mundo. Lakarin ang medieval Old City sa umaga at tumayo sa harap ng Flame Towers sa gabi.",
+            "highlights": "Flame Towers | Walled Old City (UNESCO) | Gobustan Rock Art | Mud Volcanoes | Fire Temple of Ateshgah",
+            "from": "Mula AED 999 bawat tao | 4 gabi / 5 araw",
+            "cta": "I-book ang Azerbaijan Package",
+            "whatsappMessage": "Kumusta, interesado ako sa Azerbaijan holiday package."
+          },
+          "vietnam": {
+            "title": "Vietnam",
+            "copy": "Mula lantern-lit na kalye ng Hoi An hanggang enerhiya ng Ho Chi Minh City at mahiwagang tubig ng Ha Long Bay, rewarding ang Vietnam sa bawat uri ng manlalakbay.",
+            "highlights": "Ha Long Bay Cruise | Hoi An Ancient Town | Hue Imperial City | Mekong Delta",
+            "from": "Mula AED 1,399 bawat tao | 6 gabi / 7 araw",
+            "cta": "I-book ang Vietnam Package",
+            "whatsappMessage": "Kumusta, interesado ako sa Vietnam holiday package."
+          },
+          "myanmar": {
+            "title": "Myanmar",
+            "copy": "Destinasyon na hindi pa lubos na naaabot ng mass tourism, Buddhist pagoda sa sunrise, sinaunang kaharian, at katahimikan ng Inle Lake ang Myanmar.",
+            "highlights": "Shwedagon Pagoda | Bagan Temple Sunrise | Inle Lake Boat Tour | Mandalay Hill",
+            "from": "Mula AED 1,599 bawat tao | 6 gabi / 7 araw",
+            "cta": "I-book ang Myanmar Package",
+            "whatsappMessage": "Kumusta, interesado ako sa Myanmar holiday package."
+          },
+          "europe": {
+            "title": "Europe Tour Package",
+            "copy": "Paris, Rome, Istanbul, Barcelona, Amsterdam, hindi napapanahon ang bucket list na Europe. Inaayos namin ang Schengen tourist visa kasabay ng buong package.",
+            "highlights": "Eiffel Tower Paris | Colosseum Rome | Istanbul Bosphorus | Sagrada Família Barcelona",
+            "from": "Mula AED 3,499 bawat tao | 7 gabi / 8 araw (kasama ang tulong sa Schengen visa)",
+            "cta": "Magtanong Tungkol sa Europe Package",
+            "whatsappMessage": "Kumusta, interesado ako sa Europe tour package."
+          }
+        }
+      },
+      "cruiseTours": {
+        "title": "Cruise Tour, Maglayag nang May Estilo",
+        "shortCopy": "Luxury sa bukas na dagat. Inaayos namin ang cruise package mula Dubai at international port sa buong mundo.",
+        "description": "Iba ang cruise sa ibang holiday, gumigising sa bagong lungsod araw-araw, lumulutang ang hotel sa ilalim. Nagbu-book kami ng cruise sa Arabian Gulf, Mediterranean, Southeast Asia, at higit pa.",
+        "includes": [
+          "Dubai to Oman at Muscat (3–5 gabi)",
+          "Mediterranean Cruise: Rome, Barcelona, Dubrovnik, Santorini (7–14 gabi)",
+          "Southeast Asia Cruise: Singapore, Penang, Langkawi, Phuket (7–10 gabi)",
+          "Cruise ticket booking (lahat ng major cruise line)",
+          "Pre/post cruise hotel accommodation at transfer"
+        ],
+        "price": "Gulf cruise mula AED 599 bawat tao",
+        "cta": "Magtanong Tungkol sa Cruise Package",
+        "whatsappMessage": "Kumusta, interesado ako sa cruise package."
+      },
+      "umrahPackages": {
+        "title": "Umrah Package, By Air at By Bus",
+        "shortCopy": "Sagradong paglalakbay na may tamang pag-aalaga. May air at bus package para sa lahat ng budget.",
+        "description": "Isa sa pinakamahalagang paglalakbay ng Muslim ang Umrah. Sa A&H, may paggalang kami sa bawat Umrah booking, inaayos ang travel, accommodation, at logistics para makapag-focus kayo sa pagsamba.",
+        "includes": [
+          "Return flight Dubai ↔ Jeddah o Medina",
+          "3-star, 4-star, o 5-star hotel malapit sa Haram",
+          "Airport at Haram transfer",
+          "Ziyarat sa Makkah at Madinah",
+          "Group o private option",
+          "Bus package na may komportableng coach"
+        ],
+        "price": "Mula AED 1,200 bawat tao (bus) | Mula AED 2,500 bawat tao (air, 3-star)",
+        "cta": "I-book ang Umrah Journey Ko",
+        "whatsappMessage": "Kumusta, interesado ako sa Umrah package."
+      },
+      "desertSafari": {
+        "title": "Desert Safari Dubai, Tunay na Arabian Experience",
+        "shortCopy": "Dune bashing, camel ride, henna, BBQ, at langit na puno ng bituin. Dubai experience na hindi mo malilimutan.",
+        "description": "Hindi kumpleto ang Dubai kung hindi pupunta sa disyerto. Dadalhin kayo ng Desert Safari package sa malawak na gintong buhangin, dune bashing sa 4x4 Land Cruiser, camel ride, sandboarding, henna, at BBQ dinner sa bukas na langit.",
+        "includes": [
+          "Hotel pickup at drop-off sa Dubai",
+          "4x4 dune bashing na may propesyonal na driver",
+          "Camel ride at sandboarding",
+          "Traditional Arabic costume photoshoot at henna",
+          "Live belly dancing at Tanoura show",
+          "BBQ dinner buffet (may vegetarian option)"
+        ],
+        "price": "Evening Safari mula AED 150 bawat tao | Morning Safari mula AED 120 bawat tao",
+        "cta": "I-book ang Desert Safari Ko",
+        "whatsappMessage": "Kumusta, gusto kong mag-book ng desert safari sa Dubai."
+      },
+      "horseRiding": {
+        "title": "Horse Riding Dubai",
+        "shortCopy": "Magkarera sa disyerto o sa baybayin. Natatanging Dubai experience para sa lahat ng antas.",
+        "description": "Malalim ang equestrian culture ng Dubai, isa sa pinakamemorable na karanasan ang pag-ride sa disyerto o coastline. Inaayos namin ang session sa licensed Dubai stable, para sa baguhan at experienced rider.",
+        "includes": [
+          "Transfer papunta at pabalik sa Dubai hotel",
+          "30, 60, o 90 minutong riding session",
+          "Qualified riding instructor",
+          "Helmet at safety equipment",
+          "Desert trail o beach ride option"
+        ],
+        "price": "Mula AED 200 bawat tao (30 min session)",
+        "cta": "I-book ang Horse Riding",
+        "whatsappMessage": "Kumusta, gusto kong mag-book ng horse riding experience sa Dubai."
+      },
+      "travelInsurance": {
+        "title": "Travel Insurance",
+        "shortCopy": "Maglakbay nang may kumpiyansa. Inaayos namin ang komprehensibong travel insurance para sa bawat biyahe.",
+        "description": "Inaayos namin ang travel insurance para sa lahat ng A&H tour package at bilang standalone service. Kasama ang medical emergency, trip cancellation, nawawalang baggage, at flight delay.",
+        "includes": [
+          "Emergency medical treatment sa abroad",
+          "Medical evacuation",
+          "Trip cancellation at curtailment",
+          "Lost o delayed baggage compensation",
+          "24/7 emergency assistance hotline"
+        ],
+        "price": "Mula AED 45",
+        "cta": "Magdagdag ng Travel Insurance",
+        "whatsappMessage": "Kumusta, kailangan ko ng travel insurance para sa biyahe ko."
+      },
+      "airportPickup": {
+        "title": "Airport Transfer Dubai",
+        "shortCopy": "Bababa sa Dubai at may sasalubong na may pangalan mo sa board. Malinis na sasakyan, maagap na driver, fixed price.",
+        "description": "Siguradong on time ang pickup, propesyonal ang welcome, at diretso sa destinasyon sa buong Dubai ang airport transfer service namin.",
+        "includes": [
+          "Meet and greet sa loob ng airport",
+          "Name board pickup",
+          "Malinis, may aircon na private vehicle",
+          "Saloon, SUV, at van option (1 hanggang 14 pasahero)",
+          "Real-time flight monitoring"
+        ],
+        "price": "Mula AED 60 (saloon car, one way)",
+        "cta": "I-book ang Airport Transfer",
+        "whatsappMessage": "Kumusta, kailangan ko ng airport transfer sa Dubai."
+      }
     }
   },
   "admin": {
     "hero": {
-      "title": "Ayos na ang Papeles. Tumutok sa Mahalaga.",
-      "subtitle": "Visas, Emirates ID, government services at document clearance — ng mga eksperto."
+      "title": "UAE Bureaucracy. Hawak Namin.",
+      "subtitle": "Mula employment visa hanggang trade license, Emirates ID hanggang document typing, ang PRO team namin ang bahala sa bawat administrative requirement para makapag-focus kayo sa buhay at trabaho sa Dubai."
     },
-    "servicesTitle": "Admin at Visa Services",
+    "servicesTitle": "Serbisyo sa Admin at Visa",
     "services": {
-      "employmentVisa": { "title": "2-Taong Employment Visa (Lahat ng Nasyonalidad)", "description": "Buong employment visa processing kasama medical at Emirates ID.", "price": "Mula AED 3,500" },
-      "familyVisa": { "title": "Family Visa (2 Taon)", "description": "I-sponsor ang asawa, anak at magulang.", "price": "Mula AED 2,800" },
-      "touristVisa": { "title": "Tourist Visa (30 at 60 Araw)", "description": "Single at multiple-entry UAE tourist visas.", "price": "Mula AED 350" },
-      "schengenVisa": { "title": "Schengen at Europe Tourist Visa", "description": "Suporta sa Schengen at European visa applications.", "price": "Assistance mula AED 500" },
-      "tasheel": { "title": "Tas-Heel Services", "description": "Tas-Heel centre services para sa labour at immigration.", "price": "Fees mula AED 50" },
-      "amer": { "title": "Amer Services", "description": "Amer centre transactions para sa residency at visa stamping.", "price": "Fees mula AED 75" },
-      "emiratesId": { "title": "Emirates ID at Medical Services", "description": "Emirates ID application, renewal at medical coordination.", "price": "Mula AED 370" },
-      "ded": { "title": "DED at Economic Services", "description": "DED services kasama trade licence renewals.", "price": "Fees vary" },
-      "documentTyping": { "title": "Lahat ng Document Typing", "description": "Propesyonal na typing sa Arabic at English.", "price": "Mula AED 25/page" },
-      "translation": { "title": "Legal at Normal Translation", "description": "Certified legal translation na tinatanggap ng UAE authorities.", "price": "Mula AED 40/page" },
-      "proServices": { "title": "PRO Services (Document Clearance)", "description": "PRO services para sa government document submission.", "price": "Mula AED 150/transaction" },
-      "businessSetup": { "title": "Business Setup", "description": "End-to-end company formation sa mainland at free zones.", "price": "Packages mula AED 8,999" },
-      "ejari": { "title": "Ejari Services", "description": "Tenancy contract registration at Ejari renewal.", "price": "Mula AED 220" },
-      "drivingLicense": { "title": "Driving License Renewal", "description": "UAE driving licence renewal assistance.", "price": "Mula AED 350" },
-      "medicalInsurance": { "title": "Medical/Stamping Insurance", "description": "Health insurance na tumutugon sa visa stamping requirements.", "price": "Mula AED 600/taon" }
+      "employmentVisa": {
+        "title": "Employment Visa UAE, 2 Taon",
+        "shortCopy": "Legal na magtrabaho sa Dubai. Pinoproseso namin ang 2-taong employment visa para sa lahat ng nasyonalidad, mula simula hanggang dulo.",
+        "description": "Ang employment visa ang pundasyon ng buhay sa UAE. Hawak ng team namin ang bawat hakbang, entry permit, medical, Emirates ID, nang mabilis, tama, at transparent sa gastos.",
+        "includes": [
+          "Work permit application (Ministry of Human Resources)",
+          "Entry permit stamping at status change",
+          "Medical fitness test coordination",
+          "Emirates ID biometrics",
+          "Labour contract attestation at visa stamping"
+        ],
+        "price": "Pagproseso 2–3 linggo | May express",
+        "cta": "Simulan ang Employment Visa Ko",
+        "whatsappMessage": "Kumusta, kailangan ko ng tulong sa 2-taong employment visa sa UAE."
+      },
+      "familyVisa": {
+        "title": "Family Residence Visa, UAE",
+        "shortCopy": "Dalhin ang pamilya sa Dubai. Pinoproseso namin ang 2-taong family residence visa para sa asawa, anak, at magulang.",
+        "description": "Kasama dapat ang pamilya. Hawak namin ang buong sponsorship application, tamang salary threshold, dokumentasyon, at medical procedure.",
+        "includes": [
+          "Spouse at children sponsorship",
+          "Entry permit application",
+          "Medical fitness coordination",
+          "Emirates ID para sa sponsored family member",
+          "Visa stamping at renewal"
+        ],
+        "price": "Mula AED 2,800",
+        "cta": "I-sponsor ang Pamilya Ko",
+        "whatsappMessage": "Kumusta, gusto kong dalhin ang pamilya ko sa Dubai sa family visa."
+      },
+      "touristVisa": {
+        "title": "UAE Tourist Visa, 30 at 60 Araw",
+        "shortCopy": "Bisitahin ang Dubai na may malinis at tamang tourist visa. May single at multiple entry.",
+        "description": "Pinoproseso namin ang UAE tourist visa para sa lahat ng nasyonalidad, 30-araw at 60-araw. Tama ang dokumento sa unang subok para maiwasan ang rejection at pagkaantala.",
+        "includes": [
+          "30-araw at 60-araw single entry tourist visa",
+          "Multiple entry tourist visa",
+          "Visa on arrival assistance",
+          "Overstay fine clearance"
+        ],
+        "price": "Mula AED 350 | Pagproseso 3–5 working day",
+        "cta": "Mag-apply para sa Tourist Visa",
+        "whatsappMessage": "Kumusta, kailangan ko ng UAE tourist visa."
+      },
+      "schengenVisa": {
+        "title": "Schengen Visa at Europe Tourist Visa",
+        "shortCopy": "Pangarap ang Europe? Hawak namin ang Schengen visa application na may buong tulong sa dokumento.",
+        "description": "Isang application lang ang Schengen visa para sa 27 bansa sa Europe. Sa aming tulong, kumpleto at maayos ang application para sa pinakamalaking tsansa ng approval.",
+        "includes": [
+          "Document checklist ayon sa nasyonalidad",
+          "Cover letter drafting",
+          "Travel itinerary at hotel booking confirmation",
+          "VFS appointment booking",
+          "Application review bago i-submit"
+        ],
+        "price": "Tulong mula AED 500",
+        "cta": "Mag-apply para sa Schengen Visa",
+        "whatsappMessage": "Kumusta, kailangan ko ng tulong sa Schengen visa application."
+      },
+      "tasheel": {
+        "title": "Serbisyo ng Tas-Heel",
+        "shortCopy": "Serbisyo ng Ministry of Human Resources, tama at sa tamang oras.",
+        "description": "Ang Tas-Heel ay UAE MOHRE service centre, opisyal na channel para sa employment-related government service. Hawak ng team namin ang lahat ng Tas-Heel requirement para sa employer at employee.",
+        "includes": [
+          "Labour contract registration at amendment",
+          "Work permit issuance at renewal",
+          "Labour card service",
+          "Salary certificate attestation",
+          "MOHRE fine clearance"
+        ],
+        "price": "Service fee mula AED 50",
+        "cta": "I-book ang Tas-Heel Service",
+        "whatsappMessage": "Kumusta, kailangan ko ng tulong sa serbisyo ng Tas-Heel."
+      },
+      "amer": {
+        "title": "Serbisyo ng Amer, ICA at GDRFA",
+        "shortCopy": "Immigration authority service na maayos. Status change, entry ban, at higit pa.",
+        "description": "Ang Amer Centre ay opisyal na channel para sa ICA at GDRFA. Pinoproseso namin ang lahat ng Amer requirement para sa indibidwal, pamilya, at negosyo.",
+        "includes": [
+          "Visa status change",
+          "Entry permit application",
+          "Entry ban checking at lifting",
+          "Overstay fine payment at clearance",
+          "Visa cancellation at GCC resident visa processing"
+        ],
+        "price": "Service fee mula AED 75",
+        "cta": "I-book ang Amer Service",
+        "whatsappMessage": "Kumusta, kailangan ko ng tulong sa serbisyo ng Amer."
+      },
+      "emiratesId": {
+        "title": "Emirates ID at Medical Fitness",
+        "shortCopy": "Emirates ID registration, renewal, at medical fitness test, inaayos at tinatapos namin.",
+        "description": "Kailangan ng valid Emirates ID ang bawat residente ng UAE. Hawak namin ang buong proseso, kasama ang medical fitness test booking at tamang channel ng submission.",
+        "includes": [
+          "Bagong Emirates ID application at renewal",
+          "Medical fitness test booking (DHA approved centre)",
+          "Medical report submission sa immigration",
+          "Emirates ID status tracking at collection"
+        ],
+        "price": "Mula AED 370",
+        "cta": "Kunin ang Emirates ID Ko",
+        "whatsappMessage": "Kumusta, kailangan ko ng tulong sa Emirates ID o medical fitness."
+      },
+      "ded": {
+        "title": "DED at Economic Services",
+        "shortCopy": "Trade license application, renewal, at economic department service, hawak ng PRO team namin.",
+        "description": "Ang Dubai Department of Economy and Tourism ang namamahala sa business licensing sa Dubai. Tinitiyak ng PRO team namin na compliant ang negosyo ninyo.",
+        "includes": [
+          "Bagong trade license application",
+          "Trade license renewal at amendment",
+          "Initial approval at external approval",
+          "E-channel subscription"
+        ],
+        "price": "Mag-iiba ang fee ayon sa serbisyo",
+        "cta": "Hawakan ang DED Services Ko",
+        "whatsappMessage": "Kumusta, kailangan ko ng tulong sa DED o trade license service."
+      },
+      "businessSetup": {
+        "title": "Business Setup sa Dubai",
+        "shortCopy": "Ilunsad ang negosyo sa Dubai, mainland o free zone. Ginagabayan namin mula registration hanggang operasyon.",
+        "description": "Tumutulong kami sa entrepreneur, freelancer, at kumpanya na magtatag sa Dubai na may tamang license type, structure, at approval mula unang araw.",
+        "includes": [
+          "Dubai Mainland at Free Zone setup",
+          "Trade name reservation at license application",
+          "Memorandum of Association drafting",
+          "Office space / flexi-desk arrangement",
+          "Bank account opening guidance at visa quota setup"
+        ],
+        "price": "Package mula AED 8,999",
+        "cta": "Simulan ang Negosyo Ko",
+        "whatsappMessage": "Kumusta, gusto kong mag-set up ng negosyo sa Dubai."
+      },
+      "proServices": {
+        "title": "PRO Services, Buong Document Clearance",
+        "shortCopy": "Ministry ng gobyerno, attestation, at document clearance, hawak ng experienced PRO team namin.",
+        "description": "Bumibisita ang PRO team namin sa kinakailangang ministry, korte, at opisina ng gobyerno para sa inyo, nakakatipid ng araw ng pila at komplikadong proseso.",
+        "includes": [
+          "Lahat ng visit sa ministry ng gobyerno",
+          "Document attestation (MOFA, embassies)",
+          "Certificate attestation (educational, marriage, birth)",
+          "Police clearance certificate at NOC application"
+        ],
+        "price": "Mula AED 150 bawat transaksyon",
+        "cta": "I-book ang PRO Services",
+        "whatsappMessage": "Kumusta, kailangan ko ng PRO o document clearance service."
+      },
+      "documentTyping": {
+        "title": "Document Typing, Lahat ng Form ng Gobyerno",
+        "shortCopy": "Bawat form ng gobyerno ng UAE, tama sa Arabic at English. Walang error. Walang rejection.",
+        "description": "Isang typing error lang sa form ng UAE ay maaaring magdulot ng pagkaantala, multa, o rejection. Tinitiyak ng document typing service namin na tama ang bawat form.",
+        "includes": [
+          "Visa application form at labour contract",
+          "Tenancy contract (Ejari) at power of attorney",
+          "Business letter, NOC letter, at affidavit",
+          "MOA / partnership agreement at court document"
+        ],
+        "price": "Mula AED 25 bawat pahina",
+        "cta": "Ipa-type ang Dokumento Ko",
+        "whatsappMessage": "Kumusta, kailangan ko ng document typing service."
+      },
+      "translation": {
+        "title": "Translation Services, Legal at General",
+        "shortCopy": "Certified Arabic ↔ English translation at general document translation sa maraming wika.",
+        "description": "Maraming proseso sa UAE ang nangangailangan ng opisyal na salin. May certified legal translation kami na tinatanggap ng UAE court at gobyerno, at general translation para sa personal na dokumento.",
+        "includes": [
+          "Birth, marriage, at divorce certificate",
+          "Educational degree at employment contract",
+          "Arabic ↔ English | Urdu | Hindi | Tagalog | Bengali | Malayalam",
+          "Certified translation na tinatanggap ng UAE authority"
+        ],
+        "price": "Mula AED 40 bawat pahina",
+        "cta": "Humiling ng Translation",
+        "whatsappMessage": "Kumusta, kailangan ko ng document translation."
+      },
+      "ejari": {
+        "title": "Ejari Registration at Renewal",
+        "shortCopy": "Ejari tenancy contract registration, kailangan para sa residency visa, Emirates ID, at utilities setup.",
+        "description": "Mandatory ang Ejari para sa nagre-rent sa Dubai. Walang Ejari, hindi mapoproseso ang residence visa, Emirates ID, o DEWA utilities. Mabilis at tama naming ire-rehistro ang Ejari ninyo.",
+        "includes": [
+          "Bagong Ejari registration",
+          "Ejari renewal",
+          "Ejari cancellation kapag lilipat na sa property"
+        ],
+        "price": "Mula AED 220 | Same day sa karamihan ng kaso",
+        "cta": "I-rehistro ang Ejari Ko",
+        "whatsappMessage": "Kumusta, kailangan ko ng tulong sa Ejari registration."
+      },
+      "medicalInsurance": {
+        "title": "Medical at Stamping Insurance",
+        "shortCopy": "Health insurance na kailangan para sa UAE visa at stamping insurance, mabilis na inaayos.",
+        "description": "Kailangan ng valid health insurance ang UAE residence visa processing. Inaayos namin ang basic stamping insurance at komprehensibong medical insurance plan para sa inyo at pamilya.",
+        "includes": [
+          "Basic stamping insurance (visa processing requirement)",
+          "DHA-approved individual health insurance plan",
+          "Family health insurance package",
+          "Company group health insurance"
+        ],
+        "price": "Mula AED 600/taon",
+        "cta": "Kunin ang Insurance Ko",
+        "whatsappMessage": "Kumusta, kailangan ko ng tulong sa visa o medical insurance sa UAE."
+      }
     }
   },
   "about": {
-    "hero": { "title": "Tungkol sa A&H Travel", "subtitle": "Ang iyong pinagkakatiwalaang partner para sa travel at government services sa UAE mula 2020." },
+    "hero": {
+      "title": "Para sa mga Taong Ginagawang Tahanan ang Dubai.",
+      "subtitle": "Itinatag ang A&H Travel and Tourism sa isang layunin, gawing mas maayos, mabilis, at abot-kaya ang paglalakbay at buhay sa UAE para sa lahat ng tumatawag na tahanan ang Dubai."
+    },
+    "mission": {
+      "title": "Aming Misyon",
+      "text": "Magbigay ng maaasahan, maginhawa, at customer-focused na solusyon sa paglalakbay at visa sa pamamagitan ng pagtulong sa indibidwal, pamilya, at negosyo na makamit ang maayos at walang stress na karanasan sa paglalakbay sa propesyonal na serbisyo, pinagkakatiwalaang gabay, at personalized na suporta."
+    },
+    "vision": {
+      "title": "Aming Bisyon",
+      "text": "Maging pinagkakatiwalaan at nangungunang kasosyo sa paglalakbay at turismo sa Dubai, kilala sa kahusayan, pagiging maaasahan, at kasiyahan ng kliyente habang nag-uugnay ng mga tao sa global na oportunidad at hindi malilimutang karanasan sa paglalakbay."
+    },
     "story": {
       "title": "Aming Kwento",
-      "p1": "Itinatag sa International City ng Dubai, ang A&H Travel ay binuo sa isang simpleng pangako: gawing madali ang travel at paperwork para sa lahat.",
-      "p2": "Mula sa maliit na opisina, lumaki kami bilang full-service agency na pinagkakatiwalaan ng daan-daang kliyente sa mahigit sampung bansa."
+      "p1": "Nagsimula kami sa International City, isa sa pinakamagkakaiba at masiglang komunidad sa Dubai, dahil doon pinakamalaki ang pangangailangan. Libu-libong pamilya, manggagawa, at entrepreneur na humaharap sa bagong bansa, bagong sistema, at bagong buhay.",
+      "p2": "Itinayo ang A&H para sa mga taong iyon. Hindi sa komplikadong proseso o nakatagong gastos, kundi sa tapat, mabilis, at propesyonal na serbisyo sa mga wikang sinasalita ng aming komunidad.",
+      "p3": "Ngayon, hawak namin ang lahat mula air ticket hanggang employment visa, desert safari hanggang business setup. Mahigit 2,500 kliyente ang nagtiwala sa amin sa kanilang pinakamahalagang paglalakbay at dokumento. Sineseryoso namin ang tiwalang iyon."
     },
-    "mission": { "title": "Aming Misyon", "text": "Maghatid ng refined travel experiences at exceptional admin support na may transparency, bilis at tunay na hospitality." },
-    "pillars": {
-      "title": "Bakit Kami ang Piliin",
-      "trusted": { "title": "Pinagkakatiwalaan", "desc": "Daan-daang satisfied clients at 5-star reviews." },
-      "fast": { "title": "Mabilis", "desc": "Epektibong processing na may real-time updates sa WhatsApp." },
-      "affordable": { "title": "Abot-kaya", "desc": "Competitive pricing na walang hidden fees." },
-      "professional": { "title": "Propesyonal", "desc": "Experienced team na multilingual." }
-    },
-    "partners": { "title": "Pinagkakatiwalaang Partners" }
-  },
-  "contact": {
-    "hero": { "title": "Makipag-ugnayan", "subtitle": "Nandito kami para tumulong sa travel, visas at documents." },
-    "form": {
-      "name": "Buong Pangalan",
-      "phone": "Numero ng Telepono",
-      "email": "Email Address",
-      "service": "Kailangang Serbisyo",
-      "message": "Iyong Mensahe",
-      "selectService": "Pumili ng serbisyo",
-      "services": {
-        "tourism": "Turismo / Travel",
-        "visa": "Visa Services",
-        "umrah": "Umrah Package",
-        "safari": "Desert Safari",
-        "admin": "Admin / Documents",
-        "other": "Iba pa"
+    "team": {
+      "title": "Kilalanin ang Aming Team",
+      "subtitle": "Ang mga taong nasa likod ng bawat ticket, visa, at dokumentong hawak namin para sa inyo.",
+      "members": {
+        "saiful": {
+          "name": "Saiful Islam",
+          "role": "Travel Consultant"
+        },
+        "cherry": {
+          "name": "Cherry Win",
+          "role": "Travel Consultant"
+        },
+        "angelika": {
+          "name": "Angelika Fernandez",
+          "role": "Social Media Manager"
+        }
       }
     },
-    "info": { "title": "Bisitahin Kami", "addressAr": "إنجلترا كلاستر، المدينة العالمية، دبي، الإمارات العربية المتحدة" }
+    "gallery": {
+      "title": "Aming Opisina at Trabaho",
+      "subtitle": "Isang sulyap sa loob ng A&H Travel and Tourism sa International City, Dubai.",
+      "imageAlt": "Larawan ng opisina ng A&H Travel {n}"
+    },
+    "values": {
+      "title": "Aming mga Halaga",
+      "honesty": {
+        "title": "Katapatan Una",
+        "desc": "Sinasabi namin eksakto kung ano ang kailangan, magkano, at gaano katagal. Walang sorpresa."
+      },
+      "community": {
+        "title": "Ugat sa Komunidad",
+        "desc": "Naka-base kami sa International City at ipinagmamalaki iyon. Pinaglilingkuran namin ang buong diversity ng expat community sa Dubai."
+      },
+      "excellence": {
+        "title": "Kahusayan sa Pagpapatupad",
+        "desc": "Bawat visa, ticket, at dokumento ay parang sarili naming hawak. Hindi kami nagpapabaya."
+      },
+      "accessible": {
+        "title": "Laging Naaabot",
+        "desc": "I-WhatsApp kami anumang oras. Mabilis kaming sumasagot, dahil totoo ang deadline ninyo at mahalaga ang oras ninyo."
+      }
+    },
+    "partners": {
+      "title": "Pinagkakatiwalaang Partner"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Isang Mensahe Lang ang Layo Namin.",
+      "subtitle": "Bisitahin kami sa International City, tumawag, mag-email, o mag-WhatsApp lang. Mabilis kaming tutugon."
+    },
+    "hours": "Bukas 7 araw sa isang linggo | Sab–Huweb: 9am–9pm | Biyernes: 2pm–9pm",
+    "formIntro": {
+      "title": "Sabihin Kung Ano ang Kailangan Ninyo.",
+      "body": "Punan ang form sa ibaba at babalikan kayo ng team namin sa loob ng ilang oras, o i-WhatsApp na lang direkta para mas mabilis."
+    },
+    "form": {
+      "name": "Buong Pangalan",
+      "phone": "Numero ng Telepono (may country code)",
+      "email": "Email Address",
+      "service": "Kailangang Serbisyo",
+      "message": "Mensahe Ninyo",
+      "selectService": "Pumili ng serbisyo",
+      "services": {
+        "airTicketing": "Air Ticketing",
+        "hotelBooking": "Hotel Booking",
+        "tourPackage": "Tour Package",
+        "employmentVisa": "Employment Visa",
+        "touristVisa": "Tourist Visa",
+        "umrahPackage": "Umrah Package",
+        "desertSafari": "Desert Safari",
+        "documentTyping": "Document Typing",
+        "businessSetup": "Business Setup",
+        "amerServices": "Serbisyo ng Amer",
+        "other": "Iba Pa"
+      }
+    },
+    "info": {
+      "title": "Bisitahin Kami",
+      "addressAr": "إنجلترا كلاستر، المدينة العالمية، دبي، الإمارات العربية المتحدة"
+    }
   }
 }

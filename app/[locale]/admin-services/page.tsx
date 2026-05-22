@@ -1,5 +1,5 @@
 import { AdminPageHero } from "@/components/sections/AdminPageHero";
-import { ServiceDetailGrid } from "@/components/sections/ServiceDetailGrid";
+import { ServiceCarousel } from "@/components/sections/ServiceCarousel";
 import { adminServices } from "@/lib/services/admin";
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -23,7 +23,7 @@ export default async function AdminServicesPage({ params }: Props) {
   return (
     <>
       <AdminPageHero />
-      <ServiceDetailGrid namespace="admin" services={adminServices} />
+      <ServiceCarousel namespace="admin" services={adminServices} />
     </>
   );
 }

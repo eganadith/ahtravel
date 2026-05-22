@@ -1,274 +1,688 @@
 {
   "metadata": {
     "home": {
-      "title": "A&H Travel and Tourism LLC | Travel Agency Dubai",
-      "description": "Premium travel, visa, umrah packages, desert safari and admin services in Dubai. Employment visa, tourist visa, document typing International City.",
+      "title": "A&H Travel and Tourism LLC | Dubai's Trusted Travel & Visa Partner",
+      "description": "Air tickets, UAE visas, Umrah packages, desert safari, employment visas, Emirates ID, document typing and business setup, all from International City, Dubai.",
       "keywords": "travel agency Dubai, employment visa Dubai, umrah packages UAE, tourist visa Dubai, desert safari Dubai, document typing International City Dubai"
     },
     "tourism": {
       "title": "Tourism Services | A&H Travel Dubai",
-      "description": "Air ticketing, hotel booking, umrah packages, desert safari, holiday tours and travel insurance in Dubai."
+      "description": "Air ticketing, hotel booking, Umrah, desert safari, holiday packages to Asia and Europe, cruises, and travel insurance from Dubai."
     },
     "admin": {
       "title": "Admin & Visa Services | A&H Travel Dubai",
-      "description": "Employment visa, family visa, tourist visa, Emirates ID, Tas-Heel, Amer, PRO services and business setup in Dubai."
+      "description": "Employment visa, family visa, tourist visa, Schengen visa, Tas-Heel, Amer, Emirates ID, DED, business setup, PRO and document typing in Dubai."
     },
     "about": {
-      "title": "About Us | A&H Travel and Tourism LLC",
-      "description": "Learn about A&H Travel — your trusted Dubai travel and visa partner since 2020."
+      "title": "About A&H Travel and Tourism LLC | Dubai",
+      "description": "Mission, vision and story of A&H Travel, your trusted travel and admin partner in International City, Dubai."
     },
     "contact": {
-      "title": "Contact Us | A&H Travel Dubai",
-      "description": "Get in touch with A&H Travel in International City, Dubai. Call, WhatsApp or send an enquiry."
+      "title": "Contact A&H Travel | International City, Dubai",
+      "description": "Visit, call or WhatsApp A&H Travel in International City. Open 7 days a week for travel and visa enquiries."
     }
   },
   "nav": {
     "home": "Home",
-    "tourism": "Tourism",
+    "tourism": "Tourism Services",
     "admin": "Admin Services",
-    "about": "About",
+    "about": "About Us",
     "contact": "Contact",
-    "whatsapp": "WhatsApp"
+    "whatsapp": "WhatsApp Us"
+  },
+  "servicesCarousel": {
+    "subtitle": "Tap any service to see full details, pricing, and how to book.",
+    "tourismEyebrow": "Tourism Service",
+    "adminEyebrow": "Admin Service",
+    "learnMore": "Learn more",
+    "scrollPrev": "Previous services",
+    "scrollNext": "Next services",
+    "backToTourism": "All Tourism Services",
+    "backToAdmin": "All Admin Services"
+  },
+  "navMenu": {
+    "exploreTourism": "Explore Tourism",
+    "allTourism": "All Tourism Services",
+    "destinations": "Holiday Destinations",
+    "exploreAllTourism": "Explore All Tourism Services",
+    "exploreAdmin": "Explore Admin Services",
+    "allAdmin": "All Admin Services",
+    "exploreAllAdmin": "Explore All Admin Services",
+    "whatsapp": "WhatsApp Enquiry",
+    "contact": "Contact Us"
   },
   "footer": {
     "tagline": "Refined Travel. Exceptional Experiences.",
+    "taglineSecondary": "Dubai's Most Trusted Travel & Admin Partner",
     "arabicName": "ايه اند اتش للسياحة ش.ذ.م.م",
     "quickLinks": "Quick Links",
     "services": "Services",
     "contact": "Contact",
     "copyright": "© {year} A&H Travel and Tourism LLC. All rights reserved.",
+    "credits": "Designed and developed by",
     "tourismLink": "Tourism Services",
     "adminLink": "Admin & Visa",
     "aboutLink": "About Us",
     "contactLink": "Contact"
   },
   "common": {
+    "tagline": "Refined Travel. Exceptional Experiences.",
+    "taglineSecondary": "Dubai's Most Trusted Travel & Admin Partner",
     "enquireNow": "Enquire Now",
-    "exploreServices": "Explore Services",
-    "whatsappUs": "WhatsApp Us",
+    "exploreServices": "Explore Our Services",
+    "whatsappUs": "WhatsApp Us Now",
+    "whatsappChat": "Chat With Us on WhatsApp",
+    "getStartedToday": "Get Started Today",
     "getInTouch": "Get in Touch Today",
     "learnMore": "Learn More",
     "readMore": "Read More",
-    "submit": "Send Enquiry",
+    "whatsIncluded": "What's included:",
+    "submit": "Send My Enquiry",
     "sending": "Sending...",
     "success": "Thank you! We will contact you shortly.",
     "error": "Something went wrong. Please try again or WhatsApp us.",
     "phone": "+971 52 961 5154",
     "email": "contact@ahtraveltourism.com",
-    "address": "England Cluster, International City, Dubai, UAE"
+    "address": "England Cluster, International City, Dubai, UAE",
+    "openWhatsApp": "Open WhatsApp Now",
+    "preferChat": "Prefer to chat directly?",
+    "replyTime": "We typically reply within 30 minutes during business hours."
   },
   "home": {
     "hero": {
-      "headline": "Your Journey Begins Here",
-      "subheadline": "Travel. Visas. Documents. All under one roof in Dubai.",
-      "exploreServices": "Explore Services",
-      "whatsappUs": "WhatsApp Us"
-    },
-    "servicesOverview": {
-      "title": "What We Do",
-      "tourism": {
-        "title": "Tourism Services",
-        "points": ["Air ticketing & hotels", "Umrah & holiday packages", "Desert safari & tours"],
-        "cta": "Explore Tourism"
-      },
-      "admin": {
-        "title": "Admin & Visa Services",
-        "points": ["Employment & family visas", "Emirates ID & Tas-Heel", "Document typing & PRO"],
-        "cta": "Explore Admin"
-      }
+      "headline1": "Your World Awaits.",
+      "headline2": "We Handle Everything Else.",
+      "subheadline": "From dream holidays to Dubai visas, air tickets to business setup, A&H Travel and Tourism makes every step seamless, from our office in the heart of International City.",
+      "exploreServices": "Explore Our Services",
+      "whatsappUs": "WhatsApp Us Now"
     },
     "trustBar": {
-      "clients": "Clients Served",
-      "countries": "Countries",
-      "rating": "Star Rated",
-      "established": "Est."
+      "clients": "Happy Clients",
+      "destinations": "Destinations Covered",
+      "adminServices": "Admin Services",
+      "availability": "Available 7 Days a Week"
+    },
+    "servicesOverview": {
+      "tourism": {
+        "headline": "Go Anywhere. Worry About Nothing.",
+        "body": "Whether it's a family holiday to Thailand, an Umrah journey to Mecca, or a desert safari right here in Dubai, we plan it, book it, and make it unforgettable.",
+        "cta": "See All Tourism Services"
+      },
+      "admin": {
+        "headline": "UAE Paperwork. Done Right.",
+        "body": "Employment visas, Emirates ID, document typing, Amer services, business setup, we cut through the complexity so you don't have to.",
+        "cta": "See All Admin Services"
+      }
+    },
+    "pillars": {
+      "title": "Trusted by Hundreds Across Dubai",
+      "reliable": {
+        "title": "Reliable",
+        "desc": "We show up, every time. No shortcuts, no delays. Your documentation and travel plans are handled with full accountability."
+      },
+      "fast": {
+        "title": "Fast",
+        "desc": "We know your time is valuable. Most services are processed faster than the standard timeline, because waiting shouldn't be part of the plan."
+      },
+      "affordable": {
+        "title": "Affordable",
+        "desc": "Premium service doesn't mean premium prices. We work with every budget, from economy flights to luxury hotel suites."
+      },
+      "professional": {
+        "title": "Professional",
+        "desc": "Licensed, experienced, and fluent in the UAE system. Our team navigates government processes so you never have to guess."
+      }
     },
     "featured": {
       "title": "Featured Services",
       "subtitle": "Everything you need for travel and life in the UAE",
-      "airTicketing": { "name": "Air Ticketing", "desc": "Domestic & international flights on all major airlines." },
-      "employmentVisa": { "name": "Employment Visa", "desc": "2-year work visas for all nationalities." },
-      "umrah": { "name": "Umrah Packages", "desc": "By air and by bus — spiritual journeys made simple." },
-      "desertSafari": { "name": "Desert Safari", "desc": "Dune bashing, camel rides & BBQ under the stars." },
-      "hotelBooking": { "name": "Hotel Booking", "desc": "From budget stays to 5-star luxury worldwide." },
-      "documentTyping": { "name": "Document Typing", "desc": "Fast, accurate typing for all UAE documents." }
+      "airTicketing": {
+        "name": "Air Tickets",
+        "desc": "Fly anywhere in the world. We search every airline, every route, and get you the best available fare, fast."
+      },
+      "employmentVisa": {
+        "name": "Employment Visa",
+        "desc": "2-year UAE employment visas for all nationalities. We handle the full process end to end."
+      },
+      "umrah": {
+        "name": "Umrah Packages",
+        "desc": "Sacred journeys made simple. Air and bus packages available with guided support throughout."
+      },
+      "desertSafari": {
+        "name": "Desert Safari",
+        "desc": "Dune bashing, camel rides, and a BBQ dinner under the stars. The real Dubai experience, arranged for you."
+      },
+      "hotelBooking": {
+        "name": "Hotel Booking",
+        "desc": "From budget stays to 5-star luxury, we book the right room at the right price for every trip."
+      },
+      "documentTyping": {
+        "name": "Document Typing",
+        "desc": "All government forms, typed and submitted correctly. No errors, no rejections."
+      }
+    },
+    "logoStrap": {
+      "title": "Trusted Partners",
+      "ariaLabel": "Partner and airline logos"
     },
     "testimonials": {
       "title": "What Our Clients Say",
       "items": [
-        { "name": "Ahmed Hassan", "country": "Egypt", "quote": "A&H Travel made my employment visa process seamless. Professional, fast, and always available on WhatsApp." },
-        { "name": "Fatima Rahman", "country": "Bangladesh", "quote": "Our Umrah package was perfectly organized. From flights to hotels, everything exceeded our expectations." },
-        { "name": "Maria Santos", "country": "Philippines", "quote": "Best travel agency in International City. They handled my family's visas and our Thailand holiday brilliantly." }
+        {
+          "quote": "I came to A&H after struggling with my employment visa paperwork for weeks. They sorted everything within days. Professional, honest, and genuinely helpful. Highly recommend.",
+          "attribution": "Tariq M., Pakistan"
+        },
+        {
+          "quote": "They booked my ticket home to Manila and helped with my tourist visa renewal. Very affordable, and they explained everything clearly. I trust no one else in Dubai now.",
+          "attribution": "Maria L., Philippines"
+        },
+        {
+          "quote": "Alhamdulillah, our Umrah trip was perfect. A&H handled flights, accommodation in Makkah, and all the arrangements. We just had to show up. Truly a blessing of a service.",
+          "attribution": "Karim H., Bangladesh"
+        },
+        {
+          "quote": "Needed help with my trade license and business setup. The team at A&H knew every step of the DED process. Saved me weeks of confusion.",
+          "attribution": "Priya R., India"
+        }
       ]
     },
     "cta": {
-      "title": "Ready to Travel or Relocate to the UAE?",
-      "button": "Get in Touch Today"
+      "title": "Ready to Go Somewhere?",
+      "subtitle": "Or just need your UAE paperwork handled? Either way, we're one message away.",
+      "button": "WhatsApp Us Right Now"
     }
   },
   "tourism": {
     "hero": {
-      "title": "Explore the World. Start from Dubai.",
-      "subtitle": "Flights, hotels, visas, tours and unforgettable experiences — tailored for you."
+      "title": "The World Is Closer Than You Think.",
+      "subtitle": "Air tickets, visa assistance, hotel bookings, tour packages, desert safaris, cruises, and Umrah journeys, all arranged from one place in Dubai."
     },
     "servicesTitle": "Our Tourism Services",
+    "destinationsTitle": "Popular Holiday Destinations",
     "services": {
       "airTicketing": {
-        "title": "Air Ticketing (Domestic & International)",
-        "description": "Book flights on all major airlines at competitive rates. We compare fares across carriers to find the best routes and prices for your journey.",
-        "price": "Fares from AED 199"
+        "title": "Air Ticketing, Domestic & International",
+        "shortCopy": "Every airline. Every destination. Best available fare, confirmed fast.",
+        "description": "Whether you're flying home to see family, heading out on a business trip, or jetting off on a long-awaited holiday, we search across all major airlines to find you the right ticket at the right price. No hidden fees, no confusion. Just your seat, confirmed.",
+        "includes": [
+          "All international airlines, Emirates, Etihad, flydubai, Air Arabia, Qatar Airways, Turkish Airlines, and more",
+          "Domestic routes across South Asia, Southeast Asia, and the Gulf",
+          "Group bookings for families, teams, and corporate travel",
+          "Urgent same-day ticketing available",
+          "Full e-ticket sent via WhatsApp instantly"
+        ],
+        "price": "Competitive fares on all routes",
+        "cta": "Book My Ticket",
+        "whatsappMessage": "Hi, I need help booking an air ticket."
       },
       "visitWorkVisa": {
-        "title": "Visit Visa & Work Visa Assistance",
-        "description": "Expert guidance for UAE visit visas and work permit applications. We handle documentation and follow-ups so you can focus on your plans.",
-        "price": "Assistance from AED 350"
+        "title": "UAE Visit Visa & Work Visa",
+        "shortCopy": "Bringing family to Dubai? Hiring staff? We handle the full visa process, correctly and on time.",
+        "description": "Getting a UAE visa right the first time matters. Whether you're inviting a family member on a visit, applying for a work permit, or sponsoring someone to join your household, our team knows the exact documentation required and the fastest processing path.",
+        "includes": [
+          "30-day and 60-day UAE tourist/visit visas",
+          "Single and multiple entry options",
+          "Work permit applications",
+          "Visa status tracking",
+          "Rejection follow-up and resubmission support",
+          "Urgent processing available"
+        ],
+        "price": "Assistance from AED 350",
+        "cta": "Apply for My Visa",
+        "whatsappMessage": "Hi, I need help with a UAE visit or work visa."
       },
       "hotelBooking": {
-        "title": "Hotel Booking (Budget to Luxury)",
-        "description": "From affordable stays to five-star resorts worldwide. We secure the best rates and room types to match your budget and preferences.",
-        "price": "Rooms from AED 150/night"
+        "title": "Hotel Booking, Budget to 5-Star Luxury",
+        "shortCopy": "The right room changes everything. We book hotels worldwide, at every budget, for every trip.",
+        "description": "A good hotel is more than a place to sleep, it's where your trip really begins. We work with hundreds of hotels across the UAE and globally to find you the best-value option that matches your style, budget, and itinerary.",
+        "includes": [
+          "UAE hotels (Dubai, Abu Dhabi, Sharjah, Ras Al Khaimah)",
+          "International hotels across Asia, Europe, Africa, and beyond",
+          "Group hotel bookings for families and corporate delegations",
+          "Honeymoon and anniversary packages",
+          "Instant confirmation sent via WhatsApp"
+        ],
+        "price": "Rooms from AED 150/night",
+        "cta": "Book My Hotel",
+        "whatsappMessage": "Hi, I need help booking a hotel."
       },
       "holidayPackages": {
-        "title": "Holiday & Tour Packages",
-        "description": "Curated packages to Thailand, Malaysia, Azerbaijan, Vietnam, Singapore, and Myanmar. Flights, hotels, and tours bundled for hassle-free travel.",
-        "price": "Packages from AED 2,499"
+        "title": "Holiday Packages, Curated for Every Traveller",
+        "shortCopy": "Handcrafted holidays to the world's most exciting destinations. All-inclusive, stress-free, unforgettable.",
+        "description": "A proper holiday shouldn't require weeks of planning. We put together complete travel packages, flights, hotels, transfers, and selected tours, for the most popular destinations from Dubai.",
+        "includes": [
+          "Return flights from Dubai",
+          "Hotel accommodation",
+          "Airport transfers",
+          "Curated tours and experiences",
+          "Customisable add-ons"
+        ],
+        "price": "Packages from AED 999 per person",
+        "cta": "Enquire About Packages",
+        "whatsappMessage": "Hi, I'm interested in a holiday package.",
+        "destinations": {
+          "thailand": {
+            "title": "Thailand",
+            "copy": "Bangkok's chaos, Chiang Mai's temples, Phuket's beaches, Thailand offers something for every kind of traveller. Our Thailand packages start from Dubai with return flights, central hotel accommodation, and airport transfers included.",
+            "highlights": "Grand Palace Bangkok | Phi Phi Islands | Floating Markets | Muay Thai Experience",
+            "from": "From AED 1,499 per person | 5 nights / 6 days",
+            "cta": "Book Thailand Package",
+            "whatsappMessage": "Hi, I'm interested in a Thailand holiday package."
+          },
+          "malaysia": {
+            "title": "Malaysia",
+            "copy": "Kuala Lumpur's skyline, Langkawi's white sand beaches, Penang's legendary street food, Malaysia is one of Southeast Asia's most rewarding escapes.",
+            "highlights": "Petronas Twin Towers | Batu Caves | Langkawi Island | Penang Heritage Trail",
+            "from": "From AED 1,299 per person | 5 nights / 6 days",
+            "cta": "Book Malaysia Package",
+            "whatsappMessage": "Hi, I'm interested in a Malaysia holiday package."
+          },
+          "singapore": {
+            "title": "Singapore",
+            "copy": "A city that blends futuristic architecture, lush gardens, and some of the finest food in Asia. Perfect for families, couples, and solo travellers alike.",
+            "highlights": "Marina Bay Sands | Gardens by the Bay | Universal Studios | Hawker Centre Experience",
+            "from": "From AED 1,799 per person | 4 nights / 5 days",
+            "cta": "Book Singapore Package",
+            "whatsappMessage": "Hi, I'm interested in a Singapore holiday package."
+          },
+          "azerbaijan": {
+            "title": "Azerbaijan (Baku)",
+            "copy": "Where ancient fire temples meet ultramodern architecture, Baku is unlike anywhere else on earth. Walk the medieval Old City in the morning and stand before the Flame Towers at night.",
+            "highlights": "Flame Towers | Walled Old City (UNESCO) | Gobustan Rock Art | Mud Volcanoes | Fire Temple of Ateshgah",
+            "from": "From AED 999 per person | 4 nights / 5 days",
+            "cta": "Book Azerbaijan Package",
+            "whatsappMessage": "Hi, I'm interested in an Azerbaijan holiday package."
+          },
+          "vietnam": {
+            "title": "Vietnam",
+            "copy": "From the lantern-lit streets of Hoi An to the electric energy of Ho Chi Minh City and the magical waters of Ha Long Bay, Vietnam rewards every type of traveller.",
+            "highlights": "Ha Long Bay Cruise | Hoi An Ancient Town | Hue Imperial City | Mekong Delta",
+            "from": "From AED 1,399 per person | 6 nights / 7 days",
+            "cta": "Book Vietnam Package",
+            "whatsappMessage": "Hi, I'm interested in a Vietnam holiday package."
+          },
+          "myanmar": {
+            "title": "Myanmar",
+            "copy": "A destination still untouched by mass tourism, Myanmar offers Buddhist pagodas at sunrise, ancient kingdoms, and the serene beauty of Inle Lake.",
+            "highlights": "Shwedagon Pagoda | Bagan Temple Sunrise | Inle Lake Boat Tour | Mandalay Hill",
+            "from": "From AED 1,599 per person | 6 nights / 7 days",
+            "cta": "Book Myanmar Package",
+            "whatsappMessage": "Hi, I'm interested in a Myanmar holiday package."
+          },
+          "europe": {
+            "title": "Europe Tour Packages",
+            "copy": "Paris, Rome, Istanbul, Barcelona, Amsterdam, Europe is the bucket list that never gets old. We arrange Schengen tourist visa applications alongside your full package.",
+            "highlights": "Eiffel Tower Paris | Colosseum Rome | Istanbul Bosphorus | Sagrada Família Barcelona",
+            "from": "From AED 3,499 per person | 7 nights / 8 days (Schengen visa assistance included)",
+            "cta": "Enquire About Europe Packages",
+            "whatsappMessage": "Hi, I'm interested in a Europe tour package."
+          }
+        }
       },
       "cruiseTours": {
-        "title": "Cruise Tours",
-        "description": "Luxury cruise experiences departing from Dubai and beyond. Enjoy premium cabins, dining, and shore excursions on the open sea.",
-        "price": "Packages from AED 1,899"
+        "title": "Cruise Tours, Sail the World in Style",
+        "shortCopy": "Luxury on the open water. We arrange cruise packages from Dubai and international ports worldwide.",
+        "description": "A cruise is unlike any other holiday, waking up in a new city every day, with your hotel floating beneath your feet. We book cruise packages across the Arabian Gulf, Mediterranean, Southeast Asia, and beyond.",
+        "includes": [
+          "Dubai to Oman & Muscat (3–5 nights)",
+          "Mediterranean Cruise: Rome, Barcelona, Dubrovnik, Santorini (7–14 nights)",
+          "Southeast Asia Cruise: Singapore, Penang, Langkawi, Phuket (7–10 nights)",
+          "Cruise ticket booking (all major cruise lines)",
+          "Pre/post cruise hotel accommodation and transfers"
+        ],
+        "price": "Gulf cruises from AED 599 per person",
+        "cta": "Enquire About Cruise Packages",
+        "whatsappMessage": "Hi, I'm interested in a cruise package."
       },
       "umrahPackages": {
-        "title": "Umrah Packages (By Air & By Bus)",
-        "description": "Complete Umrah packages including visa, flights, accommodation in Makkah and Madinah, and ground transport. Group and private options available.",
-        "price": "Packages from AED 2,999"
+        "title": "Umrah Packages, By Air & By Bus",
+        "shortCopy": "A sacred journey handled with the care it deserves. Air and bus packages available for all budgets.",
+        "description": "Performing Umrah is one of the most significant journeys a Muslim can make. At A&H, we treat every Umrah booking with the reverence it deserves, ensuring your travel, accommodation, and logistics are arranged so you can focus entirely on your worship.",
+        "includes": [
+          "Return flights Dubai ↔ Jeddah or Medina",
+          "3-star, 4-star, or 5-star hotel near Haram",
+          "Airport and Haram transfers",
+          "Ziyarat in Makkah and Madinah",
+          "Group or private options",
+          "Bus packages with comfortable coach travel"
+        ],
+        "price": "From AED 1,200 per person (bus) | From AED 2,500 per person (air, 3-star)",
+        "cta": "Book My Umrah Journey",
+        "whatsappMessage": "Hi, I'm interested in an Umrah package."
       },
       "desertSafari": {
-        "title": "Desert Safari Dubai",
-        "description": "Thrilling dune bashing in 4x4 vehicles, camel riding, sandboarding, henna, and a traditional BBQ dinner under the desert stars.",
-        "price": "From AED 99 per person"
+        "title": "Desert Safari Dubai, The Real Arabian Experience",
+        "shortCopy": "Dune bashing, camel riding, henna, BBQ, and a sky full of stars. The Dubai experience you'll never forget.",
+        "description": "No visit to Dubai is complete without heading into the desert. Our Desert Safari packages take you into the vast, golden dunes with thrilling dune bashing in 4x4 Land Cruisers, camel rides, sandboarding, henna, and a spectacular BBQ dinner under an open sky.",
+        "includes": [
+          "Hotel pickup and drop-off in Dubai",
+          "4x4 dune bashing with professional driver",
+          "Camel riding and sandboarding",
+          "Traditional Arabic costume photoshoot and henna",
+          "Live belly dancing and Tanoura show",
+          "BBQ dinner buffet (vegetarian options available)"
+        ],
+        "price": "Evening Safari from AED 150 per person | Morning Safari from AED 120 per person",
+        "cta": "Book My Desert Safari",
+        "whatsappMessage": "Hi, I want to book a desert safari in Dubai."
       },
       "horseRiding": {
-        "title": "Horse Riding Packages",
-        "description": "Scenic horse riding experiences in Dubai's desert and equestrian centres. Suitable for beginners and experienced riders alike.",
-        "price": "From AED 250"
+        "title": "Horse Riding Dubai",
+        "shortCopy": "Ride through desert trails or beach shorelines. A unique Dubai experience for all skill levels.",
+        "description": "Dubai's equestrian culture runs deep, and riding through the desert or along the coastline is one of the city's most memorable experiences. We arrange sessions at licensed Dubai stables, suitable for first-timers and experienced riders alike.",
+        "includes": [
+          "Transfer to and from your Dubai hotel",
+          "30, 60, or 90-minute riding sessions",
+          "Qualified riding instructor",
+          "Helmet and safety equipment provided",
+          "Desert trail or beach ride options"
+        ],
+        "price": "From AED 200 per person (30 min session)",
+        "cta": "Book Horse Riding",
+        "whatsappMessage": "Hi, I'd like to book a horse riding experience in Dubai."
       },
       "travelInsurance": {
         "title": "Travel Insurance",
-        "description": "Comprehensive travel insurance covering medical emergencies, trip cancellation, and baggage loss for peace of mind abroad.",
-        "price": "From AED 45"
+        "shortCopy": "Travel confidently. We arrange comprehensive travel insurance for every trip.",
+        "description": "We arrange travel insurance for all A&H tour packages and as a standalone service. Coverage includes medical emergencies, trip cancellations, lost baggage, and flight delays.",
+        "includes": [
+          "Emergency medical treatment abroad",
+          "Medical evacuation",
+          "Trip cancellation and curtailment",
+          "Lost or delayed baggage compensation",
+          "24/7 emergency assistance hotline"
+        ],
+        "price": "From AED 45",
+        "cta": "Add Travel Insurance",
+        "whatsappMessage": "Hi, I need travel insurance for my trip."
       },
       "airportPickup": {
-        "title": "Airport Pickup & Drop",
-        "description": "Reliable private transfers to and from Dubai International Airport and other UAE airports. Meet-and-greet service available.",
-        "price": "From AED 120"
+        "title": "Airport Transfers Dubai",
+        "shortCopy": "Land in Dubai and be met with your name on a board. Clean cars, punctual drivers, fixed prices.",
+        "description": "Our airport transfer service ensures you're picked up on time, welcomed professionally, and taken directly to your destination across Dubai.",
+        "includes": [
+          "Meet and greet inside the airport",
+          "Name board pickup",
+          "Clean, air-conditioned private vehicles",
+          "Saloon, SUV, and van options (1 to 14 passengers)",
+          "Flight monitoring in real time"
+        ],
+        "price": "From AED 60 (saloon car, one way)",
+        "cta": "Book Airport Transfer",
+        "whatsappMessage": "Hi, I need an airport transfer in Dubai."
       }
     }
   },
   "admin": {
     "hero": {
-      "title": "Paperwork Sorted. Focus on What Matters.",
-      "subtitle": "Visas, Emirates ID, government services and document clearance — handled by experts."
+      "title": "UAE Bureaucracy. Handled.",
+      "subtitle": "From employment visas to trade licenses, Emirates ID to document typing, our PRO team takes care of every administrative requirement so you can focus on living and working in Dubai."
     },
     "servicesTitle": "Admin & Visa Services",
     "services": {
       "employmentVisa": {
-        "title": "2-Year Employment Visa (All Nationalities)",
-        "description": "Full employment visa processing for all nationalities including medical, Emirates ID, and labour card. We manage every step with government authorities.",
-        "price": "From AED 3,500"
+        "title": "Employment Visa UAE, 2 Years",
+        "shortCopy": "Work legally in Dubai. We process 2-year employment visas for all nationalities, end to end.",
+        "description": "Getting your employment visa right is the foundation of your life in the UAE. Our team handles every step, from entry permit to medical to Emirates ID, with speed, accuracy, and full transparency on costs.",
+        "includes": [
+          "Work permit application (Ministry of Human Resources)",
+          "Entry permit stamping and status change",
+          "Medical fitness test coordination",
+          "Emirates ID biometrics",
+          "Labour contract attestation and visa stamping"
+        ],
+        "price": "Processing from 2–3 weeks | Express available",
+        "cta": "Start My Employment Visa",
+        "whatsappMessage": "Hi, I need help with a 2-year employment visa in UAE."
       },
       "familyVisa": {
-        "title": "Family Visa (2 Years)",
-        "description": "Sponsor your spouse, children, and parents with our family visa services. We prepare all required documents and coordinate medical tests.",
-        "price": "From AED 2,800"
+        "title": "Family Residence Visa, UAE",
+        "shortCopy": "Bring your family to Dubai. We process 2-year family residence visas for spouse, children, and parents.",
+        "description": "Your family belongs with you. We manage the full sponsorship application, ensuring the correct salary threshold, documentation, and medical procedures are all handled correctly.",
+        "includes": [
+          "Spouse and children sponsorship",
+          "Entry permit application",
+          "Medical fitness coordination",
+          "Emirates ID for sponsored family member",
+          "Visa stamping and renewal"
+        ],
+        "price": "From AED 2,800",
+        "cta": "Sponsor My Family",
+        "whatsappMessage": "Hi, I want to bring my family to Dubai on a family visa."
       },
       "touristVisa": {
-        "title": "Tourist Visa (30 & 60 Days)",
-        "description": "Single and multiple-entry UAE tourist visas for 30 and 60 days. Fast processing for visitors from eligible countries.",
-        "price": "From AED 350"
+        "title": "UAE Tourist Visa, 30 & 60 Days",
+        "shortCopy": "Visit Dubai with a clean, correctly processed tourist visa. Single and multiple entry available.",
+        "description": "We process UAE tourist visas for all nationalities, with both 30-day and 60-day options. All documents are submitted correctly the first time, avoiding costly delays of a rejection.",
+        "includes": [
+          "30-day and 60-day single entry tourist visa",
+          "Multiple entry tourist visa",
+          "Visa on arrival assistance",
+          "Overstay fine clearance"
+        ],
+        "price": "From AED 350 | Processing 3–5 working days",
+        "cta": "Apply for Tourist Visa",
+        "whatsappMessage": "Hi, I need a UAE tourist visa."
       },
       "schengenVisa": {
-        "title": "Schengen & Europe Tourist Visa",
-        "description": "Application support for Schengen and European tourist visas including appointment booking, document review, and travel insurance.",
-        "price": "Assistance from AED 500"
+        "title": "Schengen Visa & Europe Tourist Visa",
+        "shortCopy": "Dreaming of Europe? We handle your Schengen visa application with full document preparation support.",
+        "description": "The Schengen visa unlocks 27 European countries with a single application. With our support, you'll submit a complete, well-prepared application that gives you the strongest possible chance of approval.",
+        "includes": [
+          "Document checklist tailored to your nationality",
+          "Cover letter drafting",
+          "Travel itinerary and hotel booking confirmation",
+          "VFS appointment booking",
+          "Application review before submission"
+        ],
+        "price": "Assistance from AED 500",
+        "cta": "Apply for Schengen Visa",
+        "whatsappMessage": "Hi, I need help with a Schengen visa application."
       },
       "tasheel": {
         "title": "Tas-Heel Services",
-        "description": "Complete Tas-Heel centre services for labour, immigration, and typing requirements. Skip the queues with our experienced team.",
-        "price": "Service fees from AED 50"
+        "shortCopy": "Ministry of Human Resources services, processed correctly and on time.",
+        "description": "Tas-Heel is the UAE MOHRE service centre, the official channel for employment-related government services. Our team handles all Tas-Heel requirements for employers and employees.",
+        "includes": [
+          "Labour contract registration and amendment",
+          "Work permit issuance and renewal",
+          "Labour card services",
+          "Salary certificate attestation",
+          "MOHRE fine clearance"
+        ],
+        "price": "Service fees from AED 50",
+        "cta": "Book Tas-Heel Service",
+        "whatsappMessage": "Hi, I need help with Tas-Heel services."
       },
       "amer": {
-        "title": "Amer Services",
-        "description": "Amer centre transactions for residency, visa stamping, and related government services handled efficiently on your behalf.",
-        "price": "Service fees from AED 75"
+        "title": "Amer Services, ICA & GDRFA",
+        "shortCopy": "Immigration authority services handled smoothly. Status changes, entry bans, and more.",
+        "description": "Amer Centres are the official service channel for ICA and GDRFA. We process all Amer-related requirements for individuals, families, and businesses.",
+        "includes": [
+          "Visa status change",
+          "Entry permit applications",
+          "Entry ban checking and lifting",
+          "Overstay fine payment and clearance",
+          "Visa cancellation and GCC resident visa processing"
+        ],
+        "price": "Service fees from AED 75",
+        "cta": "Book Amer Service",
+        "whatsappMessage": "Hi, I need help with Amer services."
       },
       "emiratesId": {
-        "title": "Emirates ID & Medical Services",
-        "description": "Emirates ID application, renewal, and medical fitness test coordination. We ensure your documents are complete before submission.",
-        "price": "From AED 370"
+        "title": "Emirates ID & Medical Fitness",
+        "shortCopy": "Emirates ID registration, renewals, and medical fitness tests, coordinated and completed.",
+        "description": "Every UAE resident must hold a valid Emirates ID. We handle the entire process, including booking your medical fitness test and submitting your application through the correct channels.",
+        "includes": [
+          "New Emirates ID application and renewal",
+          "Medical fitness test booking (DHA approved centres)",
+          "Medical report submission to immigration",
+          "Emirates ID status tracking and collection"
+        ],
+        "price": "From AED 370",
+        "cta": "Get My Emirates ID",
+        "whatsappMessage": "Hi, I need help with Emirates ID or medical fitness."
       },
       "ded": {
         "title": "DED & Economic Services",
-        "description": "Department of Economic Development services including trade licence renewals, amendments, and commercial registrations.",
-        "price": "Fees vary by service"
-      },
-      "documentTyping": {
-        "title": "All Document Typing",
-        "description": "Professional typing for visas, contracts, affidavits, NOCs, and all government forms in Arabic and English.",
-        "price": "From AED 25 per page"
-      },
-      "translation": {
-        "title": "Legal & Normal Translation",
-        "description": "Certified legal translation and standard document translation accepted by UAE government authorities and embassies.",
-        "price": "From AED 40 per page"
-      },
-      "proServices": {
-        "title": "PRO Services (Document Clearance)",
-        "description": "Public Relations Officer services for document submission, collection, and clearance across government departments in Dubai.",
-        "price": "From AED 150 per transaction"
+        "shortCopy": "Trade license applications, renewals, and economic department services, handled by our PRO team.",
+        "description": "The Dubai Department of Economy and Tourism governs all business licensing activity in Dubai. Our PRO team ensures your business remains compliant.",
+        "includes": [
+          "New trade license application",
+          "Trade license renewal and amendments",
+          "Initial approval and external approvals",
+          "E-channel subscription"
+        ],
+        "price": "Fees vary by service",
+        "cta": "Handle My DED Services",
+        "whatsappMessage": "Hi, I need help with DED or trade license services."
       },
       "businessSetup": {
-        "title": "Business Setup",
-        "description": "End-to-end company formation in mainland and free zones including trade licence, visa quota, and corporate bank account guidance.",
-        "price": "Packages from AED 8,999"
+        "title": "Business Setup in Dubai",
+        "shortCopy": "Launch your business in Dubai, mainland or free zone. We guide you from registration to operation.",
+        "description": "We help entrepreneurs, freelancers, and companies establish their presence in Dubai with the right license type, structure, and approvals from day one.",
+        "includes": [
+          "Dubai Mainland and Free Zone setup",
+          "Trade name reservation and license application",
+          "Memorandum of Association drafting",
+          "Office space / flexi-desk arrangement",
+          "Bank account opening guidance and visa quota setup"
+        ],
+        "price": "Packages from AED 8,999",
+        "cta": "Start My Business",
+        "whatsappMessage": "Hi, I want to set up a business in Dubai."
+      },
+      "proServices": {
+        "title": "PRO Services, Full Document Clearance",
+        "shortCopy": "Government departments, attestations, and document clearance, handled by our experienced PRO team.",
+        "description": "Our PRO team visits the required ministries, courts, and government offices on your behalf, saving you days of queuing and navigating complex processes.",
+        "includes": [
+          "All government ministry visits",
+          "Document attestation (MOFA, embassies)",
+          "Certificate attestation (educational, marriage, birth)",
+          "Police clearance certificate and NOC applications"
+        ],
+        "price": "From AED 150 per transaction",
+        "cta": "Book PRO Services",
+        "whatsappMessage": "Hi, I need PRO or document clearance services."
+      },
+      "documentTyping": {
+        "title": "Document Typing, All Government Forms",
+        "shortCopy": "Every UAE government form, typed correctly in Arabic and English. No errors. No rejections.",
+        "description": "A single typing error on a UAE government form can cause delays, fines, or outright rejection. Our document typing service ensures every form is completed correctly.",
+        "includes": [
+          "Visa application forms and labour contracts",
+          "Tenancy contracts (Ejari) and power of attorney",
+          "Business letters, NOC letters, and affidavits",
+          "MOA / partnership agreements and court documents"
+        ],
+        "price": "From AED 25 per page",
+        "cta": "Get My Documents Typed",
+        "whatsappMessage": "Hi, I need document typing services."
+      },
+      "translation": {
+        "title": "Translation Services, Legal & General",
+        "shortCopy": "Certified Arabic ↔ English translations and general document translation in multiple languages.",
+        "description": "Many UAE processes require officially translated documents. We provide certified legal translations accepted by UAE courts and government, plus general translations for personal documents.",
+        "includes": [
+          "Birth, marriage, and divorce certificates",
+          "Educational degrees and employment contracts",
+          "Arabic ↔ English | Urdu | Hindi | Tagalog | Bengali | Malayalam",
+          "Certified translations accepted by UAE authorities"
+        ],
+        "price": "From AED 40 per page",
+        "cta": "Request Translation",
+        "whatsappMessage": "Hi, I need a document translation."
       },
       "ejari": {
-        "title": "Ejari Services",
-        "description": "Tenancy contract registration and Ejari renewal through Dubai Land Department channels for tenants and landlords.",
-        "price": "From AED 220"
-      },
-      "drivingLicense": {
-        "title": "Driving License Renewal",
-        "description": "UAE driving licence renewal assistance including eye tests, fine clearance checks, and RTA appointment coordination.",
-        "price": "From AED 350"
+        "title": "Ejari Registration & Renewal",
+        "shortCopy": "Ejari tenancy contract registration, required for residency visas, Emirates ID, and utilities setup.",
+        "description": "Ejari is mandatory for anyone renting in Dubai. Without it, you cannot process your residence visa, Emirates ID, or connect DEWA utilities. We register your Ejari quickly and correctly.",
+        "includes": [
+          "New Ejari registration",
+          "Ejari renewal",
+          "Ejari cancellation on vacating a property"
+        ],
+        "price": "From AED 220 | Same day in most cases",
+        "cta": "Register My Ejari",
+        "whatsappMessage": "Hi, I need help with Ejari registration."
       },
       "medicalInsurance": {
-        "title": "Medical/Stamping Insurance",
-        "description": "Health insurance plans meeting UAE visa stamping requirements. We compare providers to find compliant, affordable coverage.",
-        "price": "From AED 600/year"
+        "title": "Medical & Stamping Insurance",
+        "shortCopy": "UAE visa-required health insurance and stamping insurance, arranged quickly.",
+        "description": "UAE residence visa processing requires valid health insurance. We arrange both basic stamping insurance and comprehensive medical insurance plans for you and your family.",
+        "includes": [
+          "Basic stamping insurance (visa processing requirement)",
+          "DHA-approved individual health insurance plans",
+          "Family health insurance packages",
+          "Company group health insurance"
+        ],
+        "price": "From AED 600/year",
+        "cta": "Get My Insurance",
+        "whatsappMessage": "Hi, I need help with visa or medical insurance in UAE."
       }
     }
   },
   "about": {
     "hero": {
-      "title": "About A&H Travel",
-      "subtitle": "Your trusted partner for travel and government services in the UAE since 2020."
-    },
-    "story": {
-      "title": "Our Story",
-      "p1": "Founded in Dubai's International City, A&H Travel and Tourism LLC was built on a simple promise: make travel and paperwork effortless for everyone who calls the UAE home or dreams of visiting.",
-      "p2": "From a small office serving the local community, we have grown into a full-service agency trusted by hundreds of clients across more than ten countries — handling everything from desert safaris to employment visas with the same care and attention."
+      "title": "Built for the People Who Make Dubai Home.",
+      "subtitle": "A&H Travel and Tourism was founded with one purpose, to make travel and life in the UAE smoother, faster, and more affordable for everyone who calls Dubai home."
     },
     "mission": {
       "title": "Our Mission",
-      "text": "To deliver refined travel experiences and exceptional admin support with transparency, speed, and genuine hospitality — every client, every time."
+      "text": "To provide reliable, convenient, and customer-focused travel and visa solutions by helping individuals, families, and businesses achieve smooth and stress-free travel experiences through professional service, trusted guidance, and personalized support."
     },
-    "pillars": {
-      "title": "Why Choose Us",
-      "trusted": { "title": "Trusted", "desc": "Hundreds of satisfied clients and 5-star reviews across our community." },
-      "fast": { "title": "Fast", "desc": "Efficient processing with real-time updates via WhatsApp." },
-      "affordable": { "title": "Affordable", "desc": "Competitive pricing with no hidden fees — ever." },
-      "professional": { "title": "Professional", "desc": "Experienced team fluent in multiple languages and regulations." }
+    "vision": {
+      "title": "Our Vision",
+      "text": "To become a trusted and leading travel and tourism partner in Dubai, recognized for excellence, reliability, and customer satisfaction while connecting people to global opportunities and unforgettable travel experiences."
+    },
+    "story": {
+      "title": "Our Story",
+      "p1": "We started in International City, one of Dubai's most diverse and vibrant communities, because that's where the need was greatest. Thousands of families, workers, and entrepreneurs navigating a new country, a new system, and a new life.",
+      "p2": "A&H was built to serve those people. Not with complicated processes or hidden costs, but with honest, fast, and professional service in the languages our community speaks.",
+      "p3": "Today, we handle everything from air tickets to employment visas, desert safaris to business setups. Over 2,500 clients have trusted us with their most important journeys and documents. We take that trust seriously."
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "subtitle": "The people behind every ticket, visa, and document we handle for you.",
+      "members": {
+        "saiful": {
+          "name": "Saiful Islam",
+          "role": "Travel Consultant"
+        },
+        "cherry": {
+          "name": "Cherry Win",
+          "role": "Travel Consultant"
+        },
+        "angelika": {
+          "name": "Angelika Fernandez",
+          "role": "Social Media Manager"
+        }
+      }
+    },
+    "gallery": {
+      "title": "Our Office & Work",
+      "subtitle": "A look inside A&H Travel and Tourism in International City, Dubai.",
+      "imageAlt": "A&H Travel office photo {n}"
+    },
+    "values": {
+      "title": "Our Values",
+      "honesty": {
+        "title": "Honesty First",
+        "desc": "We tell you exactly what's needed, what it costs, and how long it takes. No surprises."
+      },
+      "community": {
+        "title": "Community Rooted",
+        "desc": "We're based in International City and proud of it. We serve Dubai's full diversity of expat community."
+      },
+      "excellence": {
+        "title": "Excellence in Execution",
+        "desc": "Every visa, every ticket, every document is handled as if it's our own. We don't cut corners."
+      },
+      "accessible": {
+        "title": "Always Accessible",
+        "desc": "WhatsApp us anytime. We respond fast, because your deadlines are real and your time matters."
+      }
     },
     "partners": {
       "title": "Trusted Partners"
@@ -276,22 +690,32 @@
   },
   "contact": {
     "hero": {
-      "title": "Get in Touch",
-      "subtitle": "We are here to help with travel, visas, and documents. Reach out today."
+      "title": "We're One Message Away.",
+      "subtitle": "Visit us in International City, call us, email us, or just send a WhatsApp. We'll get back to you fast."
+    },
+    "hours": "Open 7 days a week | Sat–Thu: 9am–9pm | Fri: 2pm–9pm",
+    "formIntro": {
+      "title": "Tell Us What You Need.",
+      "body": "Fill in the form below and our team will get back to you within a few hours, or just WhatsApp us directly for a faster response."
     },
     "form": {
-      "name": "Full Name",
-      "phone": "Phone Number",
+      "name": "Your Full Name",
+      "phone": "Phone Number (with country code)",
       "email": "Email Address",
       "service": "Service Needed",
       "message": "Your Message",
       "selectService": "Select a service",
       "services": {
-        "tourism": "Tourism / Travel",
-        "visa": "Visa Services",
-        "umrah": "Umrah Package",
-        "safari": "Desert Safari",
-        "admin": "Admin / Documents",
+        "airTicketing": "Air Ticketing",
+        "hotelBooking": "Hotel Booking",
+        "tourPackage": "Tour Package",
+        "employmentVisa": "Employment Visa",
+        "touristVisa": "Tourist Visa",
+        "umrahPackage": "Umrah Package",
+        "desertSafari": "Desert Safari",
+        "documentTyping": "Document Typing",
+        "businessSetup": "Business Setup",
+        "amerServices": "Amer Services",
         "other": "Other"
       }
     },

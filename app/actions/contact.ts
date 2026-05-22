@@ -61,7 +61,7 @@ export async function submitContact(
       from,
       to,
       replyTo: email,
-      subject: `New Enquiry: ${service} — ${name}`,
+      subject: `New Enquiry: ${service}, ${name}`,
       html: `
         <h2>New contact form submission</h2>
         <p><strong>Name:</strong> ${name}</p>

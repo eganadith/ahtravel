@@ -1,8 +1,9 @@
 "use client";
 
 import { ContactForm } from "@/components/contact/ContactForm";
-import { COMPANY, MAPS_EMBED_URL } from "@/lib/constants";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Button } from "@/components/ui/Button";
+import { COMPANY, MAPS_EMBED_URL, SOCIAL } from "@/lib/constants";
+import { Clock, Mail, MapPin, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 export function ContactContent() {
@@ -21,35 +22,53 @@ export function ContactContent() {
       <section className="section-padding">
         <div className="mx-auto grid max-w-7xl gap-12 px-4 lg:grid-cols-2 md:px-8">
           <div>
-            <ContactForm />
-            <div className="mt-8 space-y-3 text-sm text-charcoal/80">
+            <h2 className="font-lato text-2xl font-semibold text-navy">{t("formIntro.title")}</h2>
+            <p className="mt-3 text-charcoal/70">{t("formIntro.body")}</p>
+            <div className="mt-8">
+              <ContactForm />
+            </div>
+            <div className="mt-10 rounded-2xl border border-gold/30 bg-gold/5 p-6">
+              <p className="font-semibold text-navy">{tCommon("preferChat")}</p>
               <a
-                href={`tel:${COMPANY.phone.replace(/\s/g, "")}`}
-                className="flex items-center gap-2 hover:text-gold"
+                href={SOCIAL.whatsapp}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-block"
               >
-                <Phone className="h-4 w-4" />
-                {tCommon("phone")}
+                <Button variant="gold">{tCommon("openWhatsApp")}</Button>
               </a>
-              <a
-                href={`mailto:${COMPANY.email}`}
-                className="flex items-center gap-2 hover:text-gold"
-              >
-                <Mail className="h-4 w-4" />
-                {tCommon("email")}
-              </a>
-              <p className="flex items-start gap-2">
-                <MapPin className="mt-0.5 h-4 w-4 shrink-0" />
-                {tCommon("address")}
-              </p>
-              <p className="pt-2 text-base text-navy" dir="rtl">
-                {t("info.addressAr")}
-              </p>
+              <p className="mt-3 text-sm text-charcoal/60">{tCommon("replyTime")}</p>
             </div>
           </div>
 
           <div>
             <h2 className="mb-4 font-lato text-2xl font-semibold text-navy">{t("info.title")}</h2>
-            <div className="aspect-[4/3] overflow-hidden rounded-2xl shadow-lg">
+            <ul className="space-y-4 text-charcoal/80">
+              <li className="flex items-start gap-3">
+                <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-gold" />
+                <span>{tCommon("address")}</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <Phone className="h-5 w-5 shrink-0 text-gold" />
+                <a href={`tel:${COMPANY.phone.replace(/\s/g, "")}`} className="hover:text-gold">
+                  {tCommon("phone")}
+                </a>
+              </li>
+              <li className="flex items-center gap-3">
+                <Mail className="h-5 w-5 shrink-0 text-gold" />
+                <a href={`mailto:${COMPANY.email}`} className="hover:text-gold">
+                  {tCommon("email")}
+                </a>
+              </li>
+              <li className="flex items-start gap-3">
+                <Clock className="mt-0.5 h-5 w-5 shrink-0 text-gold" />
+                <span>{t("hours")}</span>
+              </li>
+            </ul>
+            <p className="mt-6 text-base text-navy" dir="rtl">
+              {t("info.addressAr")}
+            </p>
+            <div className="mt-8 aspect-[4/3] overflow-hidden rounded-2xl shadow-lg">
               <iframe
                 src={MAPS_EMBED_URL}
                 width="100%"

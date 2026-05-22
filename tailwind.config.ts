@@ -25,12 +25,17 @@ const config: Config = {
       animation: {
         "pulse-ring": "pulse-ring 3s ease-out infinite",
         "bounce-slow": "bounce 2s infinite",
+        marquee: "marquee 35s linear infinite",
       },
       keyframes: {
         "pulse-ring": {
           "0%": { transform: "scale(1)", opacity: "0.6" },
           "70%": { transform: "scale(1.4)", opacity: "0" },
           "100%": { transform: "scale(1.4)", opacity: "0" },
+        },
+        marquee: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
         },
       },
     },

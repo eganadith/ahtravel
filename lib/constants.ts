@@ -13,10 +13,18 @@ export const MAPS_EMBED_URL =
 
 export const HERO_VIDEO = "/videos/dubai-marina-2025-12-17-13-54-20-utc.mov";
 
+/** logo.png — for dark backgrounds (white wordmark). logo2.png — for light backgrounds. */
 export const LOGO = {
-  src: "/images/Logo/logo.png",
-  width: 1285,
-  height: 1281,
+  onDark: {
+    src: "/images/Logo/logo.png",
+    width: 1285,
+    height: 1281,
+  },
+  onLight: {
+    src: "/images/Logo/logo2.png",
+    width: 1285,
+    height: 1281,
+  },
 } as const;
 
 export const SOCIAL = {

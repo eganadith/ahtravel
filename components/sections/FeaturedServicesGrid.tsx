@@ -28,9 +28,7 @@ export function FeaturedServicesGrid() {
     <section className="section-padding bg-warm-white">
       <RevealOnScroll>
         <div className="mx-auto max-w-7xl text-center">
-          <h2 className="font-lato text-4xl font-semibold text-navy md:text-5xl">
-            {t("title")}
-          </h2>
+          <h2 className="font-lato text-4xl font-semibold text-navy md:text-5xl">{t("title")}</h2>
           <p className="mx-auto mt-4 max-w-2xl text-charcoal/70">{t("subtitle")}</p>
         </div>
       </RevealOnScroll>

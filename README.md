@@ -33,7 +33,8 @@ Open [http://localhost:3000](http://localhost:3000) — redirects to `/en`.
 
 ## Assets
 
-- Brand logo: `public/images/Logo/logo.png` (also used for favicon via `app/icon.png`)
+- Brand logos: `public/images/Logo/logo.png` (dark backgrounds), `logo2.png` (light backgrounds)
+- Favicon: `app/icon.png`, `app/apple-icon.png`, and `app/favicon.ico` — synced from `logo2.png`
 - Replace SVG placeholders in `public/images/` with WebP photos (see `public/images/README.md` for AI prompts)
 
 ## Build

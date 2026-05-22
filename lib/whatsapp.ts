@@ -3,7 +3,11 @@ export const WHATSAPP_NUMBER =
 
 export function whatsappUrl(service: string) {
   const text = `Hello A&H Travel, I'm interested in ${service}. Please assist.`;
-  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
+  return whatsappUrlWithMessage(text);
+}
+
+export function whatsappUrlWithMessage(message: string) {
+  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 }
 
 export const WHATSAPP_BASE = `https://wa.me/${WHATSAPP_NUMBER}`;

@@ -6,18 +6,9 @@ import { Star } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 
-const flags: Record<string, string> = {
-  Egypt: "🇪🇬",
-  Bangladesh: "🇧🇩",
-  Philippines: "🇵🇭",
-  مصر: "🇪🇬",
-  بنغلاديش: "🇧🇩",
-  الفلبين: "🇵🇭",
-};
-
 export function TestimonialsCarousel() {
   const t = useTranslations("home.testimonials");
-  const items = t.raw("items") as { name: string; country: string; quote: string }[];
+  const items = t.raw("items") as { quote: string; attribution: string }[];
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -52,12 +43,7 @@ export function TestimonialsCarousel() {
             <p className="text-lg leading-relaxed text-warm-white/90 md:text-xl">
               &ldquo;{current.quote}&rdquo;
             </p>
-            <footer className="mt-8">
-              <p className="font-semibold">{current.name}</p>
-              <p className="mt-1 text-sm text-gold">
-                {flags[current.country] ?? "🌍"} {current.country}
-              </p>
-            </footer>
+            <footer className="mt-8 text-gold">{current.attribution}</footer>
           </motion.blockquote>
         </AnimatePresence>
         <div className="mt-8 flex justify-center gap-2">

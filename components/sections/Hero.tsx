@@ -13,7 +13,7 @@ const heroVideoSrc = process.env.NEXT_PUBLIC_HERO_VIDEO ?? HERO_VIDEO;
 
 export function Hero() {
   const t = useTranslations("home.hero");
-  const words = t("headline").split(" ");
+  const words = t("headline1").split(" ");
 
   return (
     <section className="relative flex min-h-screen items-end overflow-hidden">
@@ -40,7 +40,7 @@ export function Hero() {
         <source src={heroVideoSrc} />
       </video>
       <div className="absolute inset-0 z-[2] bg-gradient-to-t from-navy via-navy/60 to-navy/20" />
-      <motion.div className="relative z-10 mx-auto w-full max-w-7xl px-4 pb-24 pt-32 md:px-8 md:pb-32">
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-4 pb-24 pt-32 md:px-8 md:pb-32">
         <h1 className="max-w-4xl font-lato text-4xl font-semibold leading-tight text-white md:text-6xl lg:text-7xl">
           {words.map((word, i) => (
             <motion.span
@@ -53,6 +53,15 @@ export function Hero() {
               {word}
             </motion.span>
           ))}
+          <br />
+          <motion.span
+            initial={{ opacity: 0, y: 24 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: words.length * 0.08 + 0.1, duration: 0.5 }}
+            className="inline-block"
+          >
+            {t("headline2")}
+          </motion.span>
         </h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -75,7 +84,7 @@ export function Hero() {
             <Button variant="outline-white">{t("whatsappUs")}</Button>
           </a>
         </motion.div>
-      </motion.div>
+      </div>
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

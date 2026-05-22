@@ -1,9 +1,11 @@
 import { CTABanner } from "@/components/sections/CTABanner";
+import { LogoStrap } from "@/components/sections/LogoStrap";
 import { FeaturedServicesGrid } from "@/components/sections/FeaturedServicesGrid";
 import { Hero } from "@/components/sections/Hero";
 import { ServiceOverviewCards } from "@/components/sections/ServiceOverviewCards";
 import { TestimonialsCarousel } from "@/components/sections/TestimonialsCarousel";
 import { TrustBar } from "@/components/sections/TrustBar";
+import { WhyChooseSection } from "@/components/sections/WhyChooseSection";
 import { getLocalBusinessSchema } from "@/lib/structured-data";
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -38,10 +40,12 @@ export default async function HomePage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <Hero />
-      <ServiceOverviewCards />
       <TrustBar />
+      <ServiceOverviewCards />
+      <WhyChooseSection />
       <FeaturedServicesGrid />
       <TestimonialsCarousel />
+      <LogoStrap />
       <CTABanner />
     </>
   );

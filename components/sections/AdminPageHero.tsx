@@ -11,7 +11,7 @@ export function AdminPageHero() {
     <section className="relative flex min-h-[60vh] items-center justify-center overflow-hidden pt-20">
       <Image
         src={imagePaths.adminHero}
-        alt="Dubai office"
+        alt="UAE government and business services"
         fill
         priority
         className="object-cover"

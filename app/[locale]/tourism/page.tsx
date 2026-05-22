@@ -1,4 +1,4 @@
-import { ServiceDetailGrid } from "@/components/sections/ServiceDetailGrid";
+import { ServiceCarousel } from "@/components/sections/ServiceCarousel";
 import { TourismPageHero } from "@/components/sections/TourismPageHero";
 import { tourismServices } from "@/lib/services/tourism";
 import type { Metadata } from "next";
@@ -23,7 +23,7 @@ export default async function TourismPage({ params }: Props) {
   return (
     <>
       <TourismPageHero />
-      <ServiceDetailGrid namespace="tourism" services={tourismServices} />
+      <ServiceCarousel namespace="tourism" services={tourismServices} />
     </>
   );
 }

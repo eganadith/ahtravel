@@ -1,3 +1,4 @@
+import { LOGO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import "@/styles/globals.css";
@@ -12,8 +13,8 @@ const lato = Lato({
 export const metadata: Metadata = {
   metadataBase: new URL("https://ahtraveltourism.com"),
   icons: {
-    icon: [{ url: "/images/Logo/logo.png", type: "image/png" }],
-    apple: "/images/Logo/logo.png",
+    icon: [{ url: LOGO.onLight.src, type: "image/png" }],
+    apple: LOGO.onLight.src,
   },
 };
 

@@ -37,10 +37,10 @@ export function TrustBar() {
   const t = useTranslations("home.trustBar");
 
   const stats = [
-    { value: 500, suffix: "+", label: t("clients") },
-    { value: 10, suffix: "+", label: t("countries") },
-    { value: 5, suffix: "", label: t("rating"), display: "5★" },
-    { value: 2020, suffix: "", label: t("established"), display: "2020" },
+    { value: 2500, suffix: "+", label: t("clients"), counter: true },
+    { value: 50, suffix: "+", label: t("destinations"), counter: true },
+    { value: 15, suffix: "+", label: t("adminServices"), counter: true },
+    { value: 0, suffix: "", label: t("availability"), counter: false, display: "7" },
   ];
 
   return (
@@ -50,10 +50,10 @@ export function TrustBar() {
           {stats.map((stat) => (
             <div key={stat.label} className="text-center">
               <p className="font-lato text-3xl font-bold text-navy md:text-4xl">
-                {"display" in stat && stat.display ? (
-                  stat.display
-                ) : (
+                {stat.counter ? (
                   <Counter value={stat.value} suffix={stat.suffix} />
+                ) : (
+                  stat.display
                 )}
               </p>
               <p className="mt-2 text-sm text-charcoal/70">{stat.label}</p>

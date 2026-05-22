@@ -10,6 +10,20 @@ import { useFormState, useFormStatus } from "react-dom";
 
 const initialState: ContactFormState = {};
 
+const serviceKeys = [
+  "airTicketing",
+  "hotelBooking",
+  "tourPackage",
+  "employmentVisa",
+  "touristVisa",
+  "umrahPackage",
+  "desertSafari",
+  "documentTyping",
+  "businessSetup",
+  "amerServices",
+  "other",
+] as const;
+
 function SubmitButton() {
   const { pending } = useFormStatus();
   const tCommon = useTranslations("common");
@@ -24,15 +38,6 @@ export function ContactForm() {
   const t = useTranslations("contact.form");
   const tCommon = useTranslations("common");
   const [state, formAction] = useFormState(submitContact, initialState);
-
-  const serviceOptions = [
-    { value: "tourism", label: t("services.tourism") },
-    { value: "visa", label: t("services.visa") },
-    { value: "umrah", label: t("services.umrah") },
-    { value: "safari", label: t("services.safari") },
-    { value: "admin", label: t("services.admin") },
-    { value: "other", label: t("services.other") },
-  ];
 
   return (
     <form action={formAction} className="space-y-5">
@@ -76,9 +81,9 @@ export function ContactForm() {
           <option value="" disabled>
             {t("selectService")}
           </option>
-          {serviceOptions.map((opt) => (
-            <option key={opt.value} value={opt.value}>
-              {opt.label}
+          {serviceKeys.map((key) => (
+            <option key={key} value={key}>
+              {t(`services.${key}`)}
             </option>
           ))}
         </Select>
