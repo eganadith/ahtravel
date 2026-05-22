@@ -1,0 +1,10 @@
+services:
+  web:
+    image: eganadith/ahtravel:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - RESEND_API_KEY=${RESEND_API_KEY}
+      - RESEND_FROM_EMAIL=${RESEND_FROM_EMAIL}
+      - CONTACT_TO_EMAIL=${CONTACT_TO_EMAIL}
+    restart: unless-stopped
