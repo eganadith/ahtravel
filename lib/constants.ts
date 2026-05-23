@@ -32,6 +32,7 @@ export const LOGO = {
 
 export const SOCIAL = {
   whatsapp: "https://wa.me/971529615154",
-  facebook: "https://facebook.com",
+  facebook:
+    "https://www.facebook.com/share/1EAL4E9gBi/?mibextid=wwXIfr",
   instagram: "https://instagram.com",
 } as const;
