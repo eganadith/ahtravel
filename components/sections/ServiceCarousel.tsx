@@ -56,15 +56,14 @@ export function ServiceCarousel({ namespace, services }: Props) {
 
   return (
     <section className="section-padding bg-[#f5f5f7]">
-      <div className="mx-auto max-w-7xl">
+      <div className="mx-auto max-w-7xl px-4 md:px-8">
         <RevealOnScroll>
           <div className="mb-10 max-w-3xl md:mb-12">
-            <h2 className="font-lato text-3xl font-semibold tracking-tight text-navy md:text-4xl lg:text-5xl">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">{eyebrow}</p>
+            <h2 className="mt-3 font-lato text-3xl font-semibold tracking-tight text-navy md:text-4xl lg:text-5xl">
               {t("servicesTitle")}
             </h2>
-            <p className="mt-4 text-lg text-charcoal/60 md:text-xl">
-              {tCarousel("subtitle")}
-            </p>
+            <p className="mt-4 text-lg text-charcoal/60 md:text-xl">{tCarousel("subtitle")}</p>
           </div>
         </RevealOnScroll>
 

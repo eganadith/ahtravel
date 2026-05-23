@@ -20,44 +20,46 @@ export function TestimonialsCarousel() {
 
   return (
     <section className="section-padding bg-navy text-warm-white">
-      <RevealOnScroll>
-        <h2 className="mb-12 text-center font-lato text-4xl font-semibold md:text-5xl">
-          {t("title")}
-        </h2>
-      </RevealOnScroll>
-      <div className="relative mx-auto max-w-3xl overflow-hidden px-4">
-        <AnimatePresence mode="wait">
-          <motion.blockquote
-            key={index}
-            initial={{ opacity: 0, x: 40 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -40 }}
-            transition={{ duration: 0.5 }}
-            className="text-center"
-          >
-            <div className="mb-4 flex justify-center gap-1">
-              {Array.from({ length: 5 }).map((_, i) => (
-                <Star key={i} className="h-5 w-5 fill-gold text-gold" />
-              ))}
-            </div>
-            <p className="text-lg leading-relaxed text-warm-white/90 md:text-xl">
-              &ldquo;{current.quote}&rdquo;
-            </p>
-            <footer className="mt-8 text-gold">{current.attribution}</footer>
-          </motion.blockquote>
-        </AnimatePresence>
-        <div className="mt-8 flex justify-center gap-2">
-          {items.map((_, i) => (
-            <button
-              key={i}
-              type="button"
-              onClick={() => setIndex(i)}
-              className={`h-2 rounded-full transition-all ${
-                i === index ? "w-8 bg-gold" : "w-2 bg-white/30"
-              }`}
-              aria-label={`Testimonial ${i + 1}`}
-            />
-          ))}
+      <div className="mx-auto max-w-7xl px-4 md:px-8">
+        <RevealOnScroll>
+          <h2 className="mb-12 text-center font-lato text-4xl font-semibold text-warm-white md:text-5xl">
+            {t("title")}
+          </h2>
+        </RevealOnScroll>
+        <div className="relative mx-auto max-w-3xl overflow-hidden">
+          <AnimatePresence mode="wait">
+            <motion.blockquote
+              key={index}
+              initial={{ opacity: 0, x: 40 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: -40 }}
+              transition={{ duration: 0.5 }}
+              className="rounded-2xl border border-white/10 bg-white/5 px-6 py-10 text-center backdrop-blur-sm md:px-10"
+            >
+              <div className="mb-4 flex justify-center gap-1">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <Star key={i} className="h-5 w-5 fill-gold text-gold" />
+                ))}
+              </div>
+              <p className="text-lg leading-relaxed text-warm-white/90 md:text-xl">
+                &ldquo;{current.quote}&rdquo;
+              </p>
+              <footer className="mt-8 font-medium text-gold">{current.attribution}</footer>
+            </motion.blockquote>
+          </AnimatePresence>
+          <div className="mt-8 flex justify-center gap-2">
+            {items.map((_, i) => (
+              <button
+                key={i}
+                type="button"
+                onClick={() => setIndex(i)}
+                className={`h-2 rounded-full transition-all ${
+                  i === index ? "w-8 bg-gold" : "w-2 bg-white/30"
+                }`}
+                aria-label={`Testimonial ${i + 1}`}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </section>

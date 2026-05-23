@@ -41,16 +41,22 @@ export default async function TourismServicePage({ params }: Props) {
   if (!service) notFound();
 
   return (
-    <section className="section-padding bg-warm-white pt-28 md:pt-32">
-      <div className="mx-auto max-w-5xl px-4 md:px-8">
-        <ServiceBackLink namespace="tourism" />
-        <ServiceDetailView namespace="tourism" service={service} />
-        {service.hasDestinations && (
-          <div className="mt-16 border-t border-charcoal/10 pt-16">
-            <HolidayDestinations />
-          </div>
-        )}
-      </div>
-    </section>
+    <>
+      <section className="border-b border-charcoal/5 bg-[#f5f5f7] pt-24 pb-10 md:pt-28 md:pb-12">
+        <div className="mx-auto max-w-7xl px-4 md:px-8">
+          <ServiceBackLink namespace="tourism" />
+        </div>
+      </section>
+      <section className="section-padding bg-warm-white">
+        <div className="mx-auto max-w-7xl px-4 md:px-8">
+          <ServiceDetailView namespace="tourism" service={service} />
+          {service.hasDestinations && (
+            <div className="mt-20 border-t border-charcoal/10 pt-16">
+              <HolidayDestinations />
+            </div>
+          )}
+        </div>
+      </section>
+    </>
   );
 }

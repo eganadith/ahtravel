@@ -3,9 +3,9 @@ export const aboutImages = {
   mission: "/images/about/about-mission.webp",
   vision: "/images/about/about-vision.webp",
   team: {
-    saiful: "/images/about/team-saiful-islam.webp",
-    cherry: "/images/about/team-cherry-win.webp",
-    angelika: "/images/about/team-angelika-fernandez.webp",
+    saiful: "/images/team/saiful-islam.webp",
+    cherry: "/images/team/cherry-win.webp",
+    angelika: "/images/team/angelika-fernandez.webp",
   },
   gallery: [
     "/images/about/gallery-01.webp",

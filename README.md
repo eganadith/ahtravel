@@ -29,7 +29,7 @@ Open [http://localhost:3000](http://localhost:3000) — redirects to `/en`.
 | `CONTACT_TO_EMAIL` | Recipient for enquiries |
 | `NEXT_PUBLIC_WHATSAPP_NUMBER` | WhatsApp number (default: 971529615154) |
 | `NEXT_PUBLIC_GA_ID` | Optional Google Analytics ID |
-| `NEXT_PUBLIC_HERO_VIDEO` | Optional hero video path (e.g. `/videos/hero.mp4`) |
+| Hero video | `public/videos/intro.webm` (desktop) + `intro.mp4` (mobile/Safari) |
 
 ## Assets
 

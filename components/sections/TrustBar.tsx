@@ -44,11 +44,14 @@ export function TrustBar() {
   ];
 
   return (
-    <section className="border-y border-charcoal/5 bg-charcoal/[0.03] py-12">
+    <section className="border-y border-charcoal/5 bg-[#f5f5f7] py-12 md:py-14">
       <RevealOnScroll>
-        <div className="mx-auto grid max-w-7xl grid-cols-2 gap-8 px-4 md:grid-cols-4 md:px-8">
+        <div className="mx-auto grid max-w-7xl grid-cols-2 gap-4 px-4 md:grid-cols-4 md:gap-6 md:px-8">
           {stats.map((stat) => (
-            <div key={stat.label} className="text-center">
+            <div
+              key={stat.label}
+              className="rounded-2xl border border-charcoal/5 bg-white px-4 py-6 text-center shadow-sm md:px-6 md:py-8"
+            >
               <p className="font-lato text-3xl font-bold text-navy md:text-4xl">
                 {stat.counter ? (
                   <Counter value={stat.value} suffix={stat.suffix} />

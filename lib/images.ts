@@ -9,6 +9,7 @@ export const imagePaths = {
   ctaBanner: "/images/cta-dubai.webp",
   tourismHero: "/images/tourism-hero.webp",
   adminHero: "/images/admin-hero.webp",
+  contactHero: "/images/about/gallery-02.webp",
   airTicketing: "/images/air-ticketing.webp",
   employmentVisa: "/images/employment-visa.webp",
   umrah: "/images/umrah.webp",

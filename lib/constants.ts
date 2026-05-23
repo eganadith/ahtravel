@@ -11,7 +11,10 @@ export const COMPANY = {
 export const MAPS_EMBED_URL =
   "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.178!2d55.4083!3d25.1682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDEwJzA1LjUiTiA1NcKwMjQnMjkuOSJF!5e0!3m2!1sen!2sae!4v1";
 
-export const HERO_VIDEO = "/videos/dubai-marina-2025-12-17-13-54-20-utc.mov";
+export const HERO_VIDEO = {
+  webm: "/videos/intro.webm",
+  mp4: "/videos/intro.mp4",
+} as const;
 
 /** logo.png — for dark backgrounds (white wordmark). logo2.png — for light backgrounds. */
 export const LOGO = {
