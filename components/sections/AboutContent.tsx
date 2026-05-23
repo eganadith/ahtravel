@@ -187,25 +187,6 @@ export function AboutContent() {
           </div>
         </div>
       </section>
-
-      <section className="section-padding bg-[#f5f5f7]">
-        <div className="mx-auto max-w-7xl px-4 md:px-8">
-          <RevealOnScroll>
-            <SectionHeading title={t("partners.title")} />
-          </RevealOnScroll>
-          <div className="mx-auto mt-10 flex max-w-4xl flex-wrap items-center justify-center gap-8 rounded-2xl border border-charcoal/5 bg-white px-8 py-10 opacity-70 grayscale">
-            {[1, 2, 3, 4].map((n) => (
-              <Image
-                key={n}
-                src={`/images/partners/partner-${n}.svg`}
-                alt={`Partner ${n}`}
-                width={120}
-                height={48}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
     </>
   );
 }
