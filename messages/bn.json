@@ -648,8 +648,8 @@
       "title": "আমাদের দলের সাথে পরিচিত হন",
       "subtitle": "প্রতিটি টিকিট, ভিসা ও ডকুমেন্টের পিছনে যারা আছেন।",
       "members": {
-        "saiful": {
-          "name": "Saiful Islam",
+        "rezaul": {
+          "name": "Rezaul Karim",
           "role": "ট্রাভেল কনসালট্যান্ট"
         },
         "cherry": {
@@ -659,6 +659,10 @@
         "angelika": {
           "name": "Angelika Fernandez",
           "role": "সোশ্যাল মিডিয়া ম্যানেজার"
+        },
+        "saiful": {
+          "name": "Saiful Islam",
+          "role": "মার্কেটিং ম্যানেজার"
         }
       }
     },

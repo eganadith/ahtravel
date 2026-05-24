@@ -101,7 +101,7 @@ export function AboutContent() {
           <RevealOnScroll>
             <SectionHeading title={t("team.title")} subtitle={t("team.subtitle")} />
           </RevealOnScroll>
-          <div className="mx-auto mt-12 grid max-w-5xl gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mx-auto mt-12 grid max-w-6xl gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {aboutTeamMembers.map((member, idx) => (
               <RevealOnScroll key={member.key} delay={idx * 0.08}>
                 <article className="overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-charcoal/5 transition hover:shadow-lg">
@@ -114,7 +114,7 @@ export function AboutContent() {
                       className="object-cover object-center"
                       placeholder="blur"
                       blurDataURL={BLUR_DATA_URL}
-                      sizes="(max-width: 640px) 100vw, 33vw"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                     />
                   </div>
                   <div className="border-t border-charcoal/5 px-5 py-5 text-center">

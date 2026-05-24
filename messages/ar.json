@@ -648,8 +648,8 @@
       "title": "تعرف على فريقنا",
       "subtitle": "الأشخاص وراء كل تذكرة وتأشيرة ومستند نتولاه لكم.",
       "members": {
-        "saiful": {
-          "name": "Saiful Islam",
+        "rezaul": {
+          "name": "Rezaul Karim",
           "role": "مستشار سفر"
         },
         "cherry": {
@@ -659,6 +659,10 @@
         "angelika": {
           "name": "Angelika Fernandez",
           "role": "مديرة وسائل التواصل الاجتماعي"
+        },
+        "saiful": {
+          "name": "Saiful Islam",
+          "role": "مدير تسويق"
         }
       }
     },

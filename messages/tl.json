@@ -648,8 +648,8 @@
       "title": "Kilalanin ang Aming Team",
       "subtitle": "Ang mga taong nasa likod ng bawat ticket, visa, at dokumentong hawak namin para sa inyo.",
       "members": {
-        "saiful": {
-          "name": "Saiful Islam",
+        "rezaul": {
+          "name": "Rezaul Karim",
           "role": "Travel Consultant"
         },
         "cherry": {
@@ -659,6 +659,10 @@
         "angelika": {
           "name": "Angelika Fernandez",
           "role": "Social Media Manager"
+        },
+        "saiful": {
+          "name": "Saiful Islam",
+          "role": "Marketing Manager"
         }
       }
     },

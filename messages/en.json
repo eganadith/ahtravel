@@ -648,8 +648,8 @@
       "title": "Meet Our Team",
       "subtitle": "The people behind every ticket, visa, and document we handle for you.",
       "members": {
-        "saiful": {
-          "name": "Saiful Islam",
+        "rezaul": {
+          "name": "Rezaul Karim",
           "role": "Travel Consultant"
         },
         "cherry": {
@@ -659,6 +659,10 @@
         "angelika": {
           "name": "Angelika Fernandez",
           "role": "Social Media Manager"
+        },
+        "saiful": {
+          "name": "Saiful Islam",
+          "role": "Marketing Manager"
         }
       }
     },

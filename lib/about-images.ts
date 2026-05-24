@@ -3,9 +3,10 @@ export const aboutImages = {
   mission: "/images/about/about-mission.webp",
   vision: "/images/about/about-vision.webp",
   team: {
-    saiful: "/images/team/saiful-islam.webp",
+    rezaul: "/images/team/saiful-islam.webp",
     cherry: "/images/team/cherry-win.webp",
     angelika: "/images/team/angelika-fernandez.webp",
+    saiful: "/images/team/saiful-islam-marketing.webp",
   },
   gallery: [
     "/images/about/gallery-01.webp",
@@ -21,7 +22,8 @@ export const aboutImages = {
 } as const;
 
 export const aboutTeamMembers = [
-  { key: "saiful", image: aboutImages.team.saiful },
+  { key: "rezaul", image: aboutImages.team.rezaul },
   { key: "cherry", image: aboutImages.team.cherry },
   { key: "angelika", image: aboutImages.team.angelika },
+  { key: "saiful", image: aboutImages.team.saiful },
 ] as const;
