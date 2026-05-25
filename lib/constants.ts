@@ -34,5 +34,6 @@ export const SOCIAL = {
   whatsapp: "https://wa.me/971529615154",
   facebook:
     "https://www.facebook.com/share/1EAL4E9gBi/?mibextid=wwXIfr",
-  instagram: "https://instagram.com",
+  instagram: "https://www.instagram.com/a_h.traveltourism/",
+  tiktok: "https://www.tiktok.com/@a_h.traveltourism",
 } as const;
